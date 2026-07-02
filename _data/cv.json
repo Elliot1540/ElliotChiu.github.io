@@ -2,7 +2,7 @@
   "basics": {
     "name": "Jichun Zhao (Elliot Chiu)",
     "label": "PhD Candidate, HIT Lab NZ, University of Canterbury",
-    "email": "jzh262@uclive.ac.nz",
+    "email": "jichun.zhao@pg.canterbury.ac.nz",
     "phone": "",
     "website": "https://elliot1540.github.io/ElliotChiu.github.io/",
     "summary": "PhD Candidate at HIT Lab NZ, University of Canterbury, researching Human–Computer Interaction, XR Accessibility, Digital Cultural Heritage, Ageing, and Handheld Augmented Reality.",
@@ -44,7 +44,20 @@
     }
   ],
   "skills": [],
-  "languages": [],
+  "languages": [
+  {
+    "language": "Chinese (Mandarin)",
+    "fluency": "Native"
+  },
+  {
+    "language": "Cantonese",
+    "fluency": "Native"
+  },
+  {
+    "language": "English",
+    "fluency": "Professional working proficiency"
+  }
+],
   "interests": [
     {
       "name": "Research",
