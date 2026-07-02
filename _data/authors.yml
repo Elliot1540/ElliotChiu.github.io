@@ -1,18 +1,21 @@
 # Authors
 
-Name Name:
-  name        : "Name Name"
-  uri         : "https://name.com"
-  email       : "name@name.com"
-  bio         : "This is the first name."
-  avatar      : "bio-photo-2.jpg"
-  twitter     : "name"
-  google_plus : "Name"
+Jichun Zhao:
+  name        : "Jichun Zhao"
+  uri         : "https://elliot1540.github.io/ElliotChiu.github.io/"
+  email       : "jzh262@uclive.ac.nz"
+  bio         : "PhD Candidate at HIT Lab NZ, University of Canterbury. My research focuses on Human–Computer Interaction, XR Accessibility, Digital Cultural Heritage, and Ageing."
+  avatar      : "profile.png"
+  employer    : "University of Canterbury"
+  location    : "Christchurch, New Zealand"
 
-Name2 Name2:
-  name        : "Name2 Name2"
-  email       : "name2@name2.com"
-  bio         : "I ordered what?"
-  avatar      : "bio-photo.jpg"
-  twitter     : "name2"
-  google_plus : "Name"
+  googlescholar : "https://scholar.google.com/citations?user=B5KPFnEAAAAJ"
+  orcid         : "https://orcid.org/0009-0000-0993-8279"
+  github        : "Elliot1540"
+
+  interests:
+    - Human–Computer Interaction
+    - XR Accessibility
+    - Digital Cultural Heritage
+    - Ageing
+    - Augmented Reality
