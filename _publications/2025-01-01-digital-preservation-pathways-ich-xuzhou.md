@@ -2,11 +2,22 @@
 title: "Research on Digital Preservation Pathways for Intangible Cultural Heritage in Xuzhou"
 collection: publications
 category: manuscripts
+publication_type: "Journal Article"
 permalink: /publications/digital-preservation-pathways-ich-xuzhou/
-excerpt: "Journal article. Full venue and citation details to be added."
-date: 2025-01-01
-venue: "Journal article"
-citation: "Zhao, J. (2025). Research on digital preservation pathways for intangible cultural heritage in Xuzhou. [Journal article]. Full citation details to be added."
+year: 2025
+sort_order: 202505
+venue: "Creative Design Source"
+citation: "Ding, F., & Zhao, J. (2025). Research on digital preservation pathways for intangible cultural heritage in Xuzhou. Creative Design Source, 2025(4), 32–36."
 ---
 
-Full citation details will be added here.
+**Type:** Journal Article
+
+**Authors:** Feng Ding, Jichun Zhao
+
+**Journal:** Creative Design Source
+
+**Volume:** 2025(4)
+
+**Pages:** 32–36
+
+**Year:** 2025

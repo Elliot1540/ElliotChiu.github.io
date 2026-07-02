@@ -39,20 +39,10 @@ Profiles
 
 Publications
 ======
-## Journal Articles
+{% assign publications_by_year = site.publications | sort: "sort_order" | reverse %}
 
-<ul>{% for post in site.publications reversed %}
-  {% if post.category == "manuscripts" %}
-    {% include archive-single-cv.html %}
-  {% endif %}
-{% endfor %}</ul>
-
-## Conference Papers
-
-<ul>{% for post in site.publications reversed %}
-  {% if post.category == "conferences" %}
-    {% include archive-single-cv.html %}
-  {% endif %}
+<ul>{% for post in publications_by_year %}
+  {% include archive-single-cv.html %}
 {% endfor %}</ul>
 
 Projects
