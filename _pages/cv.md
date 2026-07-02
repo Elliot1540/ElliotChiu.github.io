@@ -23,6 +23,9 @@ Current position
 * University of Canterbury
 * Christchurch, New Zealand
 
+* Tutor, DISC101 – Storytelling for Digital Screens
+* Dovedale Campus, University of Canterbury
+
 Research interests
 ======
 * Human–Computer Interaction
