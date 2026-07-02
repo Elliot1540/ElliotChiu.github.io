@@ -11,11 +11,11 @@ redirect_from:
 
 Profile
 ======
-Jichun Zhao (preferred name: Elliot Chiu) is a PhD Candidate at HIT Lab NZ, University of Canterbury in Christchurch, New Zealand.
+Jichun Zhao (Elliot Chiu) is a PhD Candidate at HIT Lab NZ, University of Canterbury in Christchurch, New Zealand.
 
 Research focus
 ======
-My work focuses on Human-Computer Interaction, XR Accessibility, Digital Cultural Heritage, Ageing, and Augmented Reality, with an emphasis on inclusive and meaningful immersive experiences.
+My work focuses on Human–Computer Interaction, XR Accessibility, Digital Cultural Heritage, Ageing, and Handheld Augmented Reality, with an emphasis on inclusive and meaningful immersive experiences.
 
 Current position
 ======
@@ -25,11 +25,11 @@ Current position
 
 Research interests
 ======
-* Human-Computer Interaction
+* Human–Computer Interaction
 * XR Accessibility
 * Digital Cultural Heritage
 * Ageing
-* Augmented Reality
+* Handheld Augmented Reality
 
 Profiles
 ======
@@ -39,26 +39,28 @@ Profiles
 
 Publications
 ======
-{% if site.publications.size > 0 %}
-  <ul>{% for post in site.publications reversed %}
+## Journal Articles
+
+<ul>{% for post in site.publications reversed %}
+  {% if post.category == "manuscripts" %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-{% else %}
-Publication records will be added here. For current entries, see [Google Scholar](https://scholar.google.com/citations?user=B5KPFnEAAAAJ).
-{% endif %}
-  
-{% if site.talks.size > 0 %}
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-{% endif %}
-  
-{% if site.teaching.size > 0 %}
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
+  {% endif %}
+{% endfor %}</ul>
+
+## Conference Papers
+
+<ul>{% for post in site.publications reversed %}
+  {% if post.category == "conferences" %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+  {% endif %}
+{% endfor %}</ul>
+
+Projects
+======
+<ul>{% for post in site.portfolio %}
+  <li><a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a>{% if post.excerpt %}: {{ post.excerpt | strip_html }}{% endif %}</li>
+{% endfor %}</ul>
+
+{% if site.portfolio.size == 0 %}
+Selected projects will be added here.
 {% endif %}

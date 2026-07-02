@@ -11,8 +11,8 @@ locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
 title                    : "Jichun Zhao (Elliot Chiu)"
 title_separator          : "-"
-name                     : &name "Jichun Zhao"
-description              : &description "Jichun Zhao (Elliot Chiu) is a PhD Candidate at HIT Lab NZ, University of Canterbury, researching Human-Computer Interaction, XR Accessibility, Digital Cultural Heritage, Ageing, and Augmented Reality."
+name                     : &name "Jichun Zhao (Elliot Chiu)"
+description              : &description "Jichun Zhao (Elliot Chiu) is a PhD Candidate at HIT Lab NZ, University of Canterbury, researching Human–Computer Interaction, XR Accessibility, Digital Cultural Heritage, Ageing, and Handheld Augmented Reality."
 url                      : "https://elliot1540.github.io"
 baseurl                  : "/ElliotChiu.github.io"
 repository               : "Elliot1540/ElliotChiu.github.io"
@@ -24,9 +24,9 @@ author:
   avatar           : "profile.png"
 
   # Personal Information
-  name             : "Jichun Zhao"
+  name             : "Jichun Zhao (Elliot Chiu)"
   pronouns         :
-  bio              : "PhD Candidate at HIT Lab NZ, University of Canterbury, researching HCI, XR accessibility, digital cultural heritage, ageing, and AR."
+  bio              : "PhD Candidate at HIT Lab NZ, University of Canterbury, researching HCI, XR accessibility, digital cultural heritage, ageing, and handheld AR."
   location         : "Christchurch, New Zealand"
   employer         : "HIT Lab NZ, University of Canterbury"
   uri              :
@@ -83,8 +83,6 @@ author:
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
-  books:
-    title: 'Books'
   manuscripts:
     title: 'Journal Articles'    
   conferences:
@@ -96,7 +94,6 @@ breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
 future                   : true
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
-talkmap_link             : false      #change to true to add link to talkmap on talks page
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
@@ -182,6 +179,7 @@ exclude:
   - Capfile
   - config
   - Dockerfile
+  - docker-compose.yaml
   - Gemfile
   - Gruntfile.js
   - gulpfile.js
@@ -192,6 +190,7 @@ exclude:
   - package.json*
   - Rakefile
   - README
+  - scripts
   - tmp
   - vendor
 keep_files:
@@ -231,7 +230,7 @@ collections:
     permalink: /:collection/:path/
   portfolio:
     output: true
-    permalink: /:collection/:path/
+    permalink: /projects/:path/
   talks:
     output: true
     permalink: /:collection/:path/

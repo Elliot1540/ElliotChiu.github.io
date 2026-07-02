@@ -7,17 +7,21 @@ redirect_from:
   - /about.html
 ---
 
-I am **Jichun Zhao** (preferred name: **Elliot Chiu**), a PhD Candidate at HIT Lab NZ, University of Canterbury in Christchurch, New Zealand.
+I am **Jichun Zhao (Elliot Chiu)**, a PhD Candidate at HIT Lab NZ, University of Canterbury in Christchurch, New Zealand.
 
-My research sits at the intersection of Human-Computer Interaction, XR Accessibility, Digital Cultural Heritage, Ageing, and Augmented Reality. I am interested in how immersive and interactive systems can be designed to be more inclusive, meaningful, and accessible across different communities and life stages.
+My research sits at the intersection of Human–Computer Interaction, XR Accessibility, Digital Cultural Heritage, Ageing, and Handheld Augmented Reality. I am interested in how immersive and interactive systems can be designed to be more inclusive, meaningful, and accessible across different communities and life stages.
+
+Position
+======
+PhD Candidate
 
 Research interests
 ======
-- Human-Computer Interaction
+- Human–Computer Interaction
 - XR Accessibility
 - Digital Cultural Heritage
 - Ageing
-- Augmented Reality
+- Handheld Augmented Reality
 
 Affiliation
 ======
