@@ -7,6 +7,10 @@ author_profile: true
 
 {% include base_path %}
 
+{% if site.teaching.size == 0 %}
+  <p>No teaching entries are currently listed.</p>
+{% endif %}
+
 {% for post in site.teaching reversed %}
   {% include archive-single.html %}
 {% endfor %}

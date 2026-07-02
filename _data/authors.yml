@@ -4,9 +4,9 @@ Jichun Zhao:
   name        : "Jichun Zhao"
   uri         : "https://elliot1540.github.io/ElliotChiu.github.io/"
   email       : "jzh262@uclive.ac.nz"
-  bio         : "PhD Candidate at HIT Lab NZ, University of Canterbury. My research focuses on Human–Computer Interaction, XR Accessibility, Digital Cultural Heritage, and Ageing."
+  bio         : "PhD Candidate at HIT Lab NZ, University of Canterbury, researching HCI, XR accessibility, digital cultural heritage, ageing, and AR."
   avatar      : "profile.png"
-  employer    : "University of Canterbury"
+  employer    : "HIT Lab NZ, University of Canterbury"
   location    : "Christchurch, New Zealand"
 
   googlescholar : "https://scholar.google.com/citations?user=B5KPFnEAAAAJ"
@@ -14,7 +14,7 @@ Jichun Zhao:
   github        : "Elliot1540"
 
   interests:
-    - Human–Computer Interaction
+    - Human-Computer Interaction
     - XR Accessibility
     - Digital Cultural Heritage
     - Ageing

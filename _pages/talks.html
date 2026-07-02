@@ -11,6 +11,10 @@ author_profile: true
 
 {% endif %}
 
+{% if site.talks.size == 0 %}
+  <p>No talks or presentations are currently listed.</p>
+{% endif %}
+
 {% for post in site.talks reversed %}
   {% include archive-single-talk.html %}
 {% endfor %}
