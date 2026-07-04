@@ -1,11 +1,11 @@
 {
   "basics": {
     "name": "Jichun Zhao (Elliot Chiu)",
-    "label": "PhD Candidate, HIT Lab NZ, University of Canterbury",
+    "label": "PhD Candidate, HIT Lab NZ; DISC101 Tutor, University of Canterbury",
     "email": "jichun.zhao@pg.canterbury.ac.nz",
     "phone": "",
     "website": "https://elliot1540.github.io/ElliotChiu.github.io/",
-    "summary": "PhD Candidate at HIT Lab NZ, University of Canterbury, researching Human–Computer Interaction, XR Accessibility, Digital Cultural Heritage, Ageing, and Handheld Augmented Reality.",
+    "summary": "PhD Candidate at HIT Lab NZ and DISC101 Tutor at the University of Canterbury, researching Human–Computer Interaction, XR Accessibility, Digital Cultural Heritage, Ageing, and Handheld Augmented Reality.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -41,23 +41,41 @@
       "endDate": "",
       "gpa": null,
       "courses": []
+    },
+    {
+      "institution": "Tsinghua University and Jiangsu Normal University",
+      "area": "Master of Arts",
+      "studyType": "Master of Arts",
+      "startDate": "2022",
+      "endDate": "2025",
+      "gpa": null,
+      "courses": []
+    },
+    {
+      "institution": "Jiangsu Normal University",
+      "area": "Bachelor of Arts",
+      "studyType": "Bachelor of Arts",
+      "startDate": "2018",
+      "endDate": "2022",
+      "gpa": null,
+      "courses": []
     }
   ],
   "skills": [],
   "languages": [
-  {
-    "language": "Chinese (Mandarin)",
-    "fluency": "Native"
-  },
-  {
-    "language": "Cantonese",
-    "fluency": "Native"
-  },
-  {
-    "language": "English",
-    "fluency": "Professional working proficiency"
-  }
-],
+    {
+      "language": "English",
+      "fluency": ""
+    },
+    {
+      "language": "Chinese",
+      "fluency": ""
+    },
+    {
+      "language": "Cantonese",
+      "fluency": ""
+    }
+  ],
   "interests": [
     {
       "name": "Research",
@@ -105,35 +123,61 @@
     }
   ],
   "presentations": [],
-  "teaching": [],
+  "teaching": [
+    {
+      "course": "DISC101 – Storytelling for Digital Screens",
+      "institution": "Dovedale Campus, University of Canterbury",
+      "date": "",
+      "role": "Tutor",
+      "description": ""
+    }
+  ],
+  "memberships": [
+    {
+      "organization": "IEEE",
+      "role": "Member"
+    },
+    {
+      "organization": "China Industrial Design Association",
+      "role": "Member"
+    },
+    {
+      "organization": "International Youth Art Design Association",
+      "role": "Member"
+    },
+    {
+      "organization": "China Folklore Society",
+      "role": "Member"
+    }
+  ],
   "portfolio": [
     {
       "name": "XR Accessibility",
       "category": "Project",
       "date": "",
       "url": "/projects/xr-accessibility/",
-      "description": "Research on inclusive extended reality systems, interaction patterns, and evaluation methods that make immersive technologies more accessible."
+      "description": "Research on inclusive extended reality systems, accessible interaction patterns, and evaluation methods for immersive technologies across diverse abilities and contexts."
     },
     {
       "name": "Handheld AR for Older Adults",
       "category": "Project",
       "date": "",
       "url": "/projects/handheld-ar-for-older-adults/",
-      "description": "Exploring handheld augmented reality experiences that are usable, meaningful, and supportive for older adults."
+      "description": "Exploring handheld augmented reality experiences for older adults, with attention to usability, accessibility, embodied interaction, and everyday value."
     },
     {
       "name": "Digital Cultural Heritage",
       "category": "Project",
       "date": "",
       "url": "/projects/digital-cultural-heritage/",
-      "description": "Digital approaches for documenting, presenting, and sustaining cultural heritage through interactive and immersive media."
+      "description": "Digital approaches for documenting, interpreting, and sustaining tangible and intangible cultural heritage through interactive, immersive, and community-facing media."
     },
     {
       "name": "Rewi Alley Museum AR",
       "category": "Project",
       "date": "",
       "url": "/projects/rewi-alley-museum-ar/",
-      "description": "An augmented reality project concept for museum interpretation and visitor engagement around Rewi Alley-related heritage."
+      "description": "An augmented reality museum interpretation concept that connects visitors with Rewi Alley-related heritage through situated storytelling and mobile interaction."
     }
   ]
 }

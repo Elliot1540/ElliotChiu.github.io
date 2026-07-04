@@ -11,20 +11,27 @@ redirect_from:
 
 Profile
 ======
-Jichun Zhao (Elliot Chiu) is a PhD Candidate at HIT Lab NZ, University of Canterbury in Christchurch, New Zealand.
+Jichun Zhao (Elliot Chiu) is a PhD Candidate at HIT Lab NZ and DISC101 Tutor at the University of Canterbury in Christchurch, New Zealand.
 
 Research focus
 ======
 My work focuses on Human–Computer Interaction, XR Accessibility, Digital Cultural Heritage, Ageing, and Handheld Augmented Reality, with an emphasis on inclusive and meaningful immersive experiences.
 
-Current position
+Current positions
 ======
-* PhD Candidate, HIT Lab NZ
-* University of Canterbury
+* PhD Candidate, HIT Lab NZ, University of Canterbury
+* Tutor, DISC101 – Storytelling for Digital Screens, University of Canterbury
 * Christchurch, New Zealand
 
-* Tutor, DISC101 – Storytelling for Digital Screens
-* Dovedale Campus, University of Canterbury
+Education
+======
+* PhD Candidate, HIT Lab NZ, University of Canterbury
+* Master of Arts, Tsinghua University and Jiangsu Normal University, 2022–2025
+* Bachelor of Arts, Jiangsu Normal University, 2018–2022
+
+Teaching
+======
+* Tutor, DISC101 – Storytelling for Digital Screens, Dovedale Campus, University of Canterbury
 
 Research interests
 ======
@@ -57,3 +64,16 @@ Projects
 {% if site.portfolio.size == 0 %}
 Selected projects will be added here.
 {% endif %}
+
+Languages
+======
+* English
+* Chinese
+* Cantonese
+
+Professional memberships
+======
+* IEEE Member
+* China Industrial Design Association Member
+* International Youth Art Design Association Member
+* China Folklore Society Member

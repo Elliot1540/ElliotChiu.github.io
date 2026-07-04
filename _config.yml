@@ -12,7 +12,7 @@ site_theme               : "default" # The available themes options are "default
 title                    : "Jichun Zhao (Elliot Chiu)"
 title_separator          : "-"
 name                     : &name "Jichun Zhao (Elliot Chiu)"
-description              : &description "Jichun Zhao (Elliot Chiu) is a PhD Candidate at HIT Lab NZ, University of Canterbury, researching Human–Computer Interaction, XR Accessibility, Digital Cultural Heritage, Ageing, and Handheld Augmented Reality."
+description              : &description "Jichun Zhao (Elliot Chiu) is a PhD Candidate at HIT Lab NZ and DISC101 Tutor at the University of Canterbury, researching Human–Computer Interaction, XR Accessibility, Digital Cultural Heritage, Ageing, and Handheld Augmented Reality."
 url                      : "https://elliot1540.github.io"
 baseurl                  : "/ElliotChiu.github.io"
 repository               : "Elliot1540/ElliotChiu.github.io"
@@ -26,11 +26,11 @@ author:
   # Personal Information
   name             : "Jichun Zhao (Elliot Chiu)"
   pronouns         :
-  bio              : "PhD Candidate at HIT Lab NZ, University of Canterbury, researching HCI, XR accessibility, digital cultural heritage, ageing, and handheld AR."
+  bio              : "PhD Candidate at HIT Lab NZ and DISC101 Tutor at the University of Canterbury, researching HCI, XR accessibility, digital cultural heritage, ageing, and handheld AR."
   location         : "Christchurch, New Zealand"
   employer         : "HIT Lab NZ, University of Canterbury"
   uri              :
-  email            : "jzh262@uclive.ac.nz"
+  email            : "jichun.zhao@pg.canterbury.ac.nz"
 
   # Academic Profiles
   academia         :
@@ -80,6 +80,24 @@ author:
   xing             :
   youtube          :
   zhihu            :
+
+languages:
+  - language: "English"
+    fluency: ""
+  - language: "Chinese"
+    fluency: ""
+  - language: "Cantonese"
+    fluency: ""
+
+memberships:
+  - organization: "IEEE"
+    role: "Member"
+  - organization: "China Industrial Design Association"
+    role: "Member"
+  - organization: "International Youth Art Design Association"
+    role: "Member"
+  - organization: "China Folklore Society"
+    role: "Member"
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
