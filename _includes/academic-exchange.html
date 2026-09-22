@@ -3,9 +3,10 @@
   {% for slide in site.data.exchange %}
     <figure class="exchange-slide" role="group" aria-roledescription="slide" aria-label="{{ forloop.index }} / {{ forloop.length }}"{% unless forloop.first %} hidden{% endunless %}>
       {% if slide.image != '' and slide.image %}<img class="exchange-image" src="{{ slide.image | relative_url }}" alt="{{ slide.alt.en | escape }}" data-localized-alt="{{ slide.alt | jsonify | escape }}" width="1440" height="900" loading="lazy">{% else %}<div class="exchange-placeholder"><span class="placeholder-number" aria-hidden="true">0{{ forloop.index }}</span><span>Conference photo</span><small>Photo collection coming soon.</small></div>{% endif %}
-      <figcaption><h3 data-localized="{{ slide.title | jsonify | escape }}">{{ slide.title.en }}</h3><p data-localized="{{ slide.caption | jsonify | escape }}">{{ slide.caption.en }}</p></figcaption>
+      <figcaption><h3 data-localized="{{ slide.title | jsonify | escape }}">{{ slide.title.en }}</h3><p data-localized="{{ slide.caption | jsonify | escape }}">{{ slide.caption.en }}</p>{% if slide.url %}<a class="event-source" href="{{ slide.url | escape }}">Read event coverage <span aria-hidden="true">↗</span></a>{% endif %}</figcaption>
     </figure>
   {% endfor %}
   </div>
+  <div class="carousel-progress" aria-hidden="true" hidden><span></span></div>
   <div class="carousel-controls" hidden><button type="button" data-action="previous" aria-label="Previous photo">←</button><span class="carousel-count" aria-live="polite" aria-atomic="true"></span><button type="button" data-action="next" aria-label="Next photo">→</button><button type="button" data-action="play">Play slideshow</button></div>
 </div>
