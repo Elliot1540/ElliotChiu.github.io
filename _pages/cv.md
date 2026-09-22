@@ -26,8 +26,17 @@ Current positions
 Education
 ------
 * PhD Candidate, HIT Lab NZ, University of Canterbury
-* Master of Arts, Tsinghua University and Jiangsu Normal University, 2022–2025
-* Bachelor of Arts, Jiangsu Normal University, 2018–2022
+* Master’s Degree in Art · Design Studies, Tsinghua University and Jiangsu Normal University, 2022–2025
+* Bachelor’s Degree in Art · Digital Media Art, Jiangsu Normal University, 2018–2022
+
+Research visits
+------
+<div class="timeline"><article class="planned"><p class="period">Oct–Dec 2026 <span class="status-tag">Planned</span></p><div><h3>Visiting Research</h3><p><a href="https://www.riec.tohoku.ac.jp/en/">Research Institute of Electrical Communication (RIEC), Tohoku University</a></p><p class="muted">Sendai, Japan · Upcoming research visit</p></div></article></div>
+
+Summer schools
+------
+<div class="timeline"><article><p class="period">Jul–Aug 2023</p><div><h3>Summer School</h3><p>School of Design, Jiangnan University</p></div></article>
+    <article><p class="period">Jun–Jul 2023</p><div><h3>Summer School</h3><p>Nanjing Normal University</p></div></article></div>
 
 Teaching
 ------
@@ -55,7 +64,7 @@ Publications
 Projects
 ------
 <ul>{% for post in site.portfolio %}
-  <li><a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a>{% if post.excerpt %}: {{ post.excerpt | strip_html }}{% endif %}</li>
+  <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a>{% if post.excerpt %}: <span>{{ post.excerpt | strip_html }}</span>{% endif %}</li>
 {% endfor %}</ul>
 
 {% if site.portfolio.size == 0 %}
@@ -70,7 +79,4 @@ Languages
 
 Professional memberships
 ------
-* IEEE Member
-* China Industrial Design Association Member
-* International Youth Art Design Association Member
-* China Folklore Society Member
+{% include academic-memberships.html %}
