@@ -188,3 +188,9 @@ html[lang^=zh] h1,html[lang^=zh] h2{letter-spacing:0;line-height:1.4}
 @media(max-width:1000px){.header-inner nav{order:3;flex-basis:100%;justify-content:flex-start}.language-picker{margin-left:auto}.header-inner{display:flex}}
 @media(max-width:650px){.membership-grid{grid-template-columns:1fr}.header-inner{gap:4px 12px}.header-inner nav{margin-top:4px;gap:0 14px}.wordmark{display:block}.exchange-slide figcaption{padding:20px}.carousel-controls{padding:12px 16px;gap:8px}.language-picker select{max-width:120px}html{scroll-padding-top:190px}}
 @media print{.carousel-controls{display:none}.exchange-carousel{break-inside:avoid}}
+
+/* Subtle timer shared by automatic and manual gallery navigation. */
+.carousel-progress{height:4px;background:#f3e9eb;overflow:hidden}
+.carousel-progress>span{display:block;height:100%;width:100%;background:#cda5ad;transform:scaleX(0);transform-origin:left;will-change:transform}
+.event-source{display:inline-block;margin-top:12px;font-size:.82rem}
+@media print{.carousel-progress{display:none}}

@@ -49,36 +49,60 @@
     const play = controls.querySelector('[data-action="play"]');
     const count = controls.querySelector('.carousel-count');
     const motion = matchMedia('(prefers-reduced-motion: reduce)');
-    let index = 0, playing = false, timer;
+    const progress = carousel.querySelector('.carousel-progress');
+    const fill = progress.querySelector('span');
+    let index = 0, playing = !motion.matches, elapsed = 0, last = null;
+    let inView = false, hovered = false, focusPaused = false, pointer = false;
     if (!slides.length) { carousel.hidden = true; return; }
-    controls.hidden = slides.length < 2;
-    function label() { play.textContent = translate(playing ? 'Pause slideshow' : 'Play slideshow'); play.setAttribute('aria-pressed', String(playing)); }
+    controls.hidden = progress.hidden = slides.length < 2;
+    function label() {
+      play.textContent = translate(playing ? 'Pause slideshow' : 'Play slideshow');
+      play.setAttribute('aria-pressed', String(playing));
+      count.setAttribute('aria-live', playing ? 'off' : 'polite');
+    }
     function show(next) {
       index = (next + slides.length) % slides.length;
       slides.forEach((slide, i) => { slide.hidden = i !== index; });
       count.textContent = `${index + 1} / ${slides.length}`;
+      elapsed = 0;
+      fill.style.transform = 'scaleX(0)';
     }
-    function schedule() {
-      clearInterval(timer);
-      if (playing && !motion.matches && !document.hidden && !carousel.matches(':hover')) timer = setInterval(() => show(index + 1), 6000);
+    function tick(now) {
+      const running = playing && slides.length > 1 && inView && !document.hidden && !hovered && !focusPaused;
+      if (running && last !== null) {
+        elapsed += now - last;
+        if (elapsed >= 4000) show(index + 1);
+        fill.style.transform = `scaleX(${elapsed / 4000})`;
+      }
+      last = now;
+      requestAnimationFrame(tick);
     }
+    new IntersectionObserver(entries => {
+      inView = entries[0].isIntersecting; last = null;
+    }).observe(carousel);
     controls.addEventListener('click', event => {
       const action = event.target.closest('button')?.dataset.action;
       if (!action) return;
-      if (action === 'play') playing = !playing;
-      else { playing = false; show(index + (action === 'next' ? 1 : -1)); }
-      label(); schedule();
+      if (action === 'play') { playing = !playing; focusPaused = false; }
+      else show(index + (action === 'next' ? 1 : -1));
+      label(); last = null;
     });
     carousel.addEventListener('keydown', event => {
       if (!['ArrowLeft','ArrowRight'].includes(event.key)) return;
-      event.preventDefault(); playing = false; show(index + (event.key === 'ArrowRight' ? 1 : -1)); label(); schedule();
+      event.preventDefault(); show(index + (event.key === 'ArrowRight' ? 1 : -1));
     });
-    ['mouseenter','mouseleave'].forEach(event => carousel.addEventListener(event, schedule));
-    carousel.addEventListener('focusin', event => { if (event.target !== play) { playing = false; label(); schedule(); } });
-    carousel.addEventListener('focusout', () => setTimeout(schedule, 0));
-    document.addEventListener('visibilitychange', schedule);
-    motion.addEventListener('change', () => { if (motion.matches) playing = false; label(); schedule(); });
+    carousel.addEventListener('mouseenter', () => { hovered = true; });
+    carousel.addEventListener('mouseleave', () => { hovered = false; last = null; });
+    carousel.addEventListener('pointerdown', () => { pointer = true; });
+    carousel.addEventListener('pointerup', () => { setTimeout(() => { pointer = false; }, 0); });
+    carousel.addEventListener('focusin', () => { if (!pointer) focusPaused = true; });
+    carousel.addEventListener('focusout', () => {
+      setTimeout(() => { if (!carousel.contains(document.activeElement)) focusPaused = false; }, 0);
+    });
+    document.addEventListener('visibilitychange', () => { last = null; });
+    motion.addEventListener('change', () => { if (motion.matches) playing = false; label(); });
     document.addEventListener('academic:language', label);
+    requestAnimationFrame(tick);
     carousel.querySelectorAll('img').forEach(img => img.addEventListener('error', () => {
       const fallback = document.createElement('div'); fallback.className = 'exchange-placeholder';
       fallback.dataset.localized = JSON.stringify(dictionary['Photo collection coming soon.']);
