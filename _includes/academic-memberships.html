@@ -1,0 +1,5 @@
+<ul class="membership-grid">
+{% for membership in site.data.memberships %}
+<li><span class="membership-role">Member</span><a href="{{ membership.url | escape }}">{{ membership.name }} <span aria-hidden="true">↗</span></a></li>
+{% endfor %}
+</ul>
