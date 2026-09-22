@@ -1,0 +1,6 @@
+<ol class="publication-list">
+{% assign publications = site.publications | sort: 'sort_order' | reverse %}
+{% for publication in publications %}
+<li><span class="publication-year">{{ publication.year }}</span><div><p class="publication-type">{{ publication.publication_type }}</p><h3><a href="{{ publication.url | relative_url }}">{{ publication.title }}</a></h3><p class="citation">{{ publication.citation }}</p>{% if publication.paperurl %}<a href="{{ publication.paperurl }}">Read paper</a>{% endif %}{% if publication.doi %} <a href="https://doi.org/{{ publication.doi }}">DOI</a>{% endif %}</div></li>
+{% endfor %}
+</ol>

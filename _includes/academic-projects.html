@@ -1,0 +1,6 @@
+<div class="project-grid">
+{% assign projects = site.portfolio | sort: 'path' %}
+{% for project in projects %}
+<article class="project-card"><p class="eyebrow">{% if project.title == 'Rewi Alley Museum AR' %}Museum AR concept{% elsif project.title == 'Handheld AR for Older Adults' %}Doctoral research focus{% else %}Research area{% endif %}</p><h3><a href="{{ project.url | relative_url }}">{{ project.title }} <span aria-hidden="true">↗</span></a></h3><p>{{ project.excerpt | strip_html }}</p></article>
+{% endfor %}
+</div>
