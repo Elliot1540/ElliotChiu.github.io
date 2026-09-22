@@ -774,5 +774,10 @@ window.academicTranslations = {
     "en": "Jichun Zhao (Elliot Chiu)",
     "zh-Hans": "赵季淳（Elliot Chiu）",
     "zh-Hant": "趙季淳（Elliot Chiu）"
+  },
+  "Read event coverage": {
+    "en": "Read event coverage",
+    "zh-Hans": "阅读活动报道",
+    "zh-Hant": "閱讀活動報道"
   }
 };
