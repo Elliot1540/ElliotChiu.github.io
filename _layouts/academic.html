@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.home %}{{ site.title }} · HCI &amp; Accessible AR{% else %}{{ page.title | escape }} · {{ site.name }}{% endif %}</title>
+  <meta name="description" content="{{ page.description | default: page.excerpt | default: site.description | strip_html | escape }}">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{ page.title | escape }}">
+  <meta property="og:description" content="{{ page.description | default: site.description | escape }}">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og:image" content="{{ '/images/profile.png' | absolute_url }}">
+  <meta name="theme-color" content="#8b2635">
+  <link rel="icon" href="{{ '/images/favicon.svg' | relative_url }}" type="image/svg+xml">
+  <link rel="stylesheet" href="{{ '/assets/css/academic.css' | relative_url }}">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="header-inner">
+    <a class="wordmark" href="{{ '/' | relative_url }}">Jichun Zhao<span>Elliot Chiu</span></a>
+    <nav aria-label="Main navigation">
+      {% for item in site.data.navigation.main %}<a href="{{ item.url | relative_url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.title }}</a>{% endfor %}
+    </nav>
+  </div>
+</header>
+<main id="main" class="{% if page.home %}home{% else %}document{% endif %}" tabindex="-1">
+  {% unless page.home %}
+  <a class="back-link" href="{{ '/' | relative_url }}">← Back to home</a>
+  <header class="page-heading"><p class="eyebrow">{% if page.collection == 'publications' %}Publication · {{ page.year }}{% elsif page.collection == 'portfolio' %}Research &amp; projects{% else %}Academic profile{% endif %}</p><h1>{{ page.title }}</h1></header>
+  {% endunless %}
+  {{ content }}
+</main>
+<footer class="site-footer"><div><p>Jichun Zhao (Elliot Chiu)<br><span>HIT Lab NZ · University of Canterbury<br>Christchurch, New Zealand</span></p><p><a href="mailto:{{ site.author.email }}">Email</a> · <a href="{{ '/cv/' | relative_url }}">CV</a> · <a href="{{ '/sitemap/' | relative_url }}">Sitemap</a><br><small>© {{ site.time | date: '%Y' }} · Built with <a href="https://jekyllrb.com/">Jekyll</a><br>Based on <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a> / <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/">Minimal Mistakes</a> · <a href="{{ '/feed.xml' | relative_url }}">Feed</a></small></p></div></footer>
+</body>
+</html>
