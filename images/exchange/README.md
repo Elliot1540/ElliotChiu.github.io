@@ -8,5 +8,8 @@ Use descriptive alternative text; avoid putting important information only in im
 An empty image field displays an intentional placeholder. An empty array hides the gallery.
 Images are contained, not cropped. Suggested export: 1440 px wide, JPEG or WebP.
 No HTML or JavaScript edits are needed. Both the home and exchange pages use this data.
-The gallery starts paused. Keyboard arrows navigate; Play starts a 6-second slideshow.
-Focus, pointer hover, reduced-motion preference, and hidden tabs pause automatic movement.
+The gallery starts automatically with a 4-second interval and a subtle progress bar.
+Keyboard arrows and the previous/next controls navigate; the playback button pauses or resumes.
+Manual navigation resets the timer; reduced-motion users start paused.
+Keyboard focus, mouse hover, hidden tabs and offscreen galleries pause automatic movement.
+Optional `url` links to event coverage, with a translated link label.
