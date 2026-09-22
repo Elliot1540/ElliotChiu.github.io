@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: academic
 title: "CV"
 permalink: /cv/
 author_profile: true
@@ -10,31 +10,31 @@ redirect_from:
 {% include base_path %}
 
 Profile
-======
+------
 Jichun Zhao (Elliot Chiu) is a PhD Candidate at HIT Lab NZ and DISC101 Tutor at the University of Canterbury in Christchurch, New Zealand.
 
 Research focus
-======
+------
 My work focuses on Human–Computer Interaction, XR Accessibility, Digital Cultural Heritage, Ageing, and Handheld Augmented Reality, with an emphasis on inclusive and meaningful immersive experiences.
 
 Current positions
-======
+------
 * PhD Candidate, HIT Lab NZ, University of Canterbury
 * Tutor, DISC101 – Storytelling for Digital Screens, University of Canterbury
 * Christchurch, New Zealand
 
 Education
-======
+------
 * PhD Candidate, HIT Lab NZ, University of Canterbury
 * Master of Arts, Tsinghua University and Jiangsu Normal University, 2022–2025
 * Bachelor of Arts, Jiangsu Normal University, 2018–2022
 
 Teaching
-======
+------
 * Tutor, DISC101 – Storytelling for Digital Screens, Dovedale Campus, University of Canterbury
 
 Research interests
-======
+------
 * Human–Computer Interaction
 * XR Accessibility
 * Digital Cultural Heritage
@@ -42,21 +42,18 @@ Research interests
 * Handheld Augmented Reality
 
 Profiles
-======
+------
 * [Google Scholar](https://scholar.google.com/citations?user=B5KPFnEAAAAJ)
 * [ORCID](https://orcid.org/0009-0000-0993-8279)
 * [GitHub](https://github.com/Elliot1540)
+* [LinkedIn](https://www.linkedin.com/in/jichun-zhao-28359938b/)
 
 Publications
-======
-{% assign publications_by_year = site.publications | sort: "sort_order" | reverse %}
-
-<ul>{% for post in publications_by_year %}
-  {% include archive-single-cv.html %}
-{% endfor %}</ul>
+------
+{% include academic-publications.html %}
 
 Projects
-======
+------
 <ul>{% for post in site.portfolio %}
   <li><a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a>{% if post.excerpt %}: {{ post.excerpt | strip_html }}{% endif %}</li>
 {% endfor %}</ul>
@@ -66,13 +63,13 @@ Selected projects will be added here.
 {% endif %}
 
 Languages
-======
+------
 * English
 * Chinese
 * Cantonese
 
 Professional memberships
-======
+------
 * IEEE Member
 * China Industrial Design Association Member
 * International Youth Art Design Association Member

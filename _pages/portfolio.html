@@ -1,20 +1,9 @@
 ---
-layout: archive
-title: "Projects"
+layout: academic
+title: "Research & Projects"
 permalink: /projects/
-author_profile: true
 redirect_from:
   - /portfolio/
 ---
-
-{% include base_path %}
-
-{% if site.portfolio.size == 0 %}
-  <p>Selected projects will be added here.</p>
-{% endif %}
-
-<div class="grid__wrapper">
-{% for post in site.portfolio %}
-  {% include archive-single.html type="grid" %}
-{% endfor %}
-</div>
+<p class="section-intro">Research areas and project concepts spanning accessible XR, handheld augmented reality for older adults, and digital cultural heritage.</p>
+{% include academic-projects.html %}

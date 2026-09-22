@@ -1,21 +1,7 @@
 ---
-layout: archive
+layout: academic
 title: "Publications"
 permalink: /publications/
-author_profile: true
 ---
-
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
-
-{% include base_path %}
-
-{% if site.publications.size == 0 %}
-  <p>No publication records are currently listed on this site. For the current list, please see my Google Scholar profile.</p>
-{% endif %}
-
-{% assign publications_by_year = site.publications | sort: "sort_order" | reverse %}
-{% for post in publications_by_year %}
-  {% include archive-single.html %}
-{% endfor %}
+<p class="section-intro">Research on design, digital preservation, and intangible cultural heritage. See also my <a href="{{ site.author.googlescholar }}">Google Scholar profile</a>.</p>
+{% include academic-publications.html %}
