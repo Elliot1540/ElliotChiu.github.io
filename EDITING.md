@@ -42,6 +42,12 @@
 
 `_data/memberships.json` 保存原有四项会员身份及机构官网链接。官网链接只用于指向机构，不代表官网公开认证了个人会员身份。
 
+## 项目详情页
+
+项目详情页位于 `_portfolio/`。在页首配置中加入 `category`、`image` 和 `image_alt`，即可让项目卡片显示横版图片。详情页图片集中放在 `images/projects/`，主视觉建议使用 20:9 横图，并提供准确的替代文字和图注。
+
+需要公开资助单位但不公开金额时，可将金额写为 `**`。新增加的页面文字、图注和图片替代文字均应在 `assets/js/translations.js` 中同步维护英文、简体中文与繁体中文。
+
 ## 发布
 
 原有 `.github/workflows/pages.yml` 在 `master` 更新后构建并部署。保留 `_config.yml` 的 `baseurl`，除非另行配置自定义域名。没有修改域名或 DNS。

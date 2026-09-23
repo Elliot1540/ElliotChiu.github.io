@@ -175,9 +175,16 @@
     {
       "name": "Rewi Alley Museum AR",
       "category": "Project",
-      "date": "",
+      "date": "Planned from March 2027",
       "url": "/projects/rewi-alley-museum-ar/",
       "description": "An augmented reality museum interpretation concept that connects visitors with Rewi Alley-related heritage through situated storytelling and mobile interaction."
+    },
+    {
+      "name": "Digital Preservation of Intangible Cultural Heritage through Art–Technology Integration",
+      "category": "Master's Research Project",
+      "date": "2024–2026",
+      "url": "/projects/intangible-cultural-heritage-digital-preservation/",
+      "description": "A Jiangsu Province Postgraduate Research Innovation Project examining digital preservation of intangible cultural heritage from an art–technology integration perspective."
     }
   ]
 }
