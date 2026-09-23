@@ -26,4 +26,9 @@ The findings identify an emerging multi-stakeholder mechanism and a digital fram
 
 **Keywords:** Xuzhou; intangible cultural heritage; digital preservation; 3D modelling; public participation
 
+## Funding
+
+This research was supported by the Jiangsu Province Postgraduate Research Innovation Project, “Research on Digital Preservation Pathways for Intangible Cultural Heritage in Xuzhou through Art–Technology Integration” (KYCX24-3042).
+
 <p class="publication-links"><a href="https://s.wanfangdata.com.cn/paper?q=%E5%BE%90%E5%B7%9E%E5%B8%82%E9%9D%9E%E9%81%97%E6%95%B0%E5%AD%97%E5%8C%96%E4%BF%9D%E6%8A%A4%E8%B7%AF%E5%BE%84%E7%A0%94%E7%A9%B6">Find the article on Wanfang ↗</a></p>
+
