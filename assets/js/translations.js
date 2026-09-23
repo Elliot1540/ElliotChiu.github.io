@@ -779,5 +779,195 @@ window.academicTranslations = {
     "en": "Read event coverage",
     "zh-Hans": "阅读活动报道",
     "zh-Hant": "閱讀活動報道"
+  },
+  "Museum AR collaboration": {
+    "en": "Museum AR collaboration",
+    "zh-Hans": "博物馆增强现实合作",
+    "zh-Hant": "博物館增強現實合作"
+  },
+  "Master’s research project": {
+    "en": "Master’s research project",
+    "zh-Hans": "硕士研究项目",
+    "zh-Hant": "碩士研究項目"
+  },
+  "Digital Preservation of Intangible Cultural Heritage through Art–Technology Integration": {
+    "en": "Digital Preservation of Intangible Cultural Heritage through Art–Technology Integration",
+    "zh-Hans": "科艺融合视阈下非遗数字化保护研究",
+    "zh-Hant": "科藝融合視閾下非遺數字化保護研究"
+  },
+  "A master’s research project investigating digital approaches to intangible cultural heritage preservation from an art–technology integration perspective.": {
+    "en": "A master’s research project investigating digital approaches to intangible cultural heritage preservation from an art–technology integration perspective.",
+    "zh-Hans": "从科艺融合视角研究非物质文化遗产数字化保护方法的硕士研究项目。",
+    "zh-Hant": "從科藝融合視角研究非物質文化遺產數字化保護方法的碩士研究項目。"
+  },
+  "Concept visualization of an older adult using handheld augmented reality in a museum.": {
+    "en": "Concept visualization of an older adult using handheld augmented reality in a museum.",
+    "zh-Hans": "老年人在博物馆中使用手持增强现实的概念视觉图。",
+    "zh-Hant": "老年人在博物館中使用手持增強現實的概念視覺圖。"
+  },
+  "Concept visualization · Accessible handheld AR in a cultural heritage setting": {
+    "en": "Concept visualization · Accessible handheld AR in a cultural heritage setting",
+    "zh-Hans": "概念视觉图 · 文化遗产情境中的无障碍手持增强现实",
+    "zh-Hant": "概念視覺圖 · 文化遺產情境中的無障礙手持增強現實"
+  },
+  "Research stage": {
+    "en": "Research stage",
+    "zh-Hans": "研究阶段",
+    "zh-Hant": "研究階段"
+  },
+  "Current doctoral research": {
+    "en": "Current doctoral research",
+    "zh-Hans": "在研博士项目",
+    "zh-Hant": "在研博士項目"
+  },
+  "Host": {
+    "en": "Host",
+    "zh-Hans": "依托机构",
+    "zh-Hant": "依託機構"
+  },
+  "Project support": {
+    "en": "Project support",
+    "zh-Hans": "项目支持",
+    "zh-Hant": "項目支持"
+  },
+  "China Scholarship Council (CSC)": {
+    "en": "China Scholarship Council (CSC)",
+    "zh-Hans": "国家留学基金管理委员会（CSC）",
+    "zh-Hant": "國家留學基金管理委員會（CSC）"
+  },
+  "Research programme": {
+    "en": "Research programme",
+    "zh-Hans": "研究计划",
+    "zh-Hant": "研究計劃"
+  },
+  "The doctoral programme follows a three-study progression: identifying interaction barriers and preferences, translating the findings into explicit design requirements, and evaluating the refined experience in a museum context. The research compares interaction approaches while considering usability, cognitive load, user experience, task performance, confidence, and accessibility.": {
+    "en": "The doctoral programme follows a three-study progression: identifying interaction barriers and preferences, translating the findings into explicit design requirements, and evaluating the refined experience in a museum context. The research compares interaction approaches while considering usability, cognitive load, user experience, task performance, confidence, and accessibility.",
+    "zh-Hans": "博士研究由三项递进研究构成：识别交互障碍与偏好，将研究发现转化为明确的设计要求，并在博物馆情境中评估优化后的体验。研究比较不同交互方式，并综合考察可用性、认知负荷、用户体验、任务表现、信心与无障碍性。",
+    "zh-Hant": "博士研究由三項遞進研究構成：識別交互障礙與偏好，將研究發現轉化為明確的設計要求，並在博物館情境中評估優化後的體驗。研究比較不同交互方式，並綜合考察可用性、認知負荷、用戶體驗、任務表現、信心與無障礙性。"
+  },
+  "Research overview for the first study on interaction methods for older adults using handheld augmented reality.": {
+    "en": "Research overview for the first study on interaction methods for older adults using handheld augmented reality.",
+    "zh-Hans": "面向老年人手持增强现实交互方式的第一项研究概览。",
+    "zh-Hant": "面向老年人手持增強現實交互方式的第一項研究概覽。"
+  },
+  "Study 1 overview · Comparing joystick, button, and device-tilt interaction": {
+    "en": "Study 1 overview · Comparing joystick, button, and device-tilt interaction",
+    "zh-Hans": "研究一概览 · 比较摇杆、按键与设备倾斜交互",
+    "zh-Hant": "研究一概覽 · 比較搖桿、按鍵與設備傾斜交互"
+  },
+  "An augmented reality prototype showing a model of the Rewi Alley Museum building.": {
+    "en": "An augmented reality prototype showing a model of the Rewi Alley Museum building.",
+    "zh-Hans": "展示路易·艾黎博物馆建筑模型的增强现实原型。",
+    "zh-Hant": "展示路易·艾黎博物館建築模型的增強現實原型。"
+  },
+  "Prototype development · Recognising and presenting the museum building in AR": {
+    "en": "Prototype development · Recognising and presenting the museum building in AR",
+    "zh-Hans": "原型开发 · 在增强现实中识别并呈现博物馆建筑",
+    "zh-Hant": "原型開發 · 在增強現實中識別並呈現博物館建築"
+  },
+  "Project setting": {
+    "en": "Project setting",
+    "zh-Hans": "项目场景",
+    "zh-Hant": "項目場景"
+  },
+  "Rewi Alley Museum · Christchurch, New Zealand": {
+    "en": "Rewi Alley Museum · Christchurch, New Zealand",
+    "zh-Hans": "路易·艾黎博物馆 · 新西兰基督城",
+    "zh-Hant": "路易·艾黎博物館 · 新西蘭基督城"
+  },
+  "Collaboration schedule": {
+    "en": "Collaboration schedule",
+    "zh-Hans": "合作安排",
+    "zh-Hant": "合作安排"
+  },
+  "Further collaboration and field activities planned from March 2027": {
+    "en": "Further collaboration and field activities planned from March 2027",
+    "zh-Hans": "计划于 2027 年 3 月起开展进一步合作与实地研究活动",
+    "zh-Hant": "計劃於 2027 年 3 月起開展進一步合作與實地研究活動"
+  },
+  "Project status": {
+    "en": "Project status",
+    "zh-Hans": "项目状态",
+    "zh-Hant": "項目狀態"
+  },
+  "Research preparation and prototype development": {
+    "en": "Research preparation and prototype development",
+    "zh-Hans": "研究准备与原型开发阶段",
+    "zh-Hant": "研究準備與原型開發階段"
+  },
+  "Planned collaboration": {
+    "en": "Planned collaboration",
+    "zh-Hans": "合作计划",
+    "zh-Hant": "合作計劃"
+  },
+  "Further collaboration and field activities are planned to begin in March 2027. The next phase will develop the museum case study, refine accessible handheld interactions, and prepare in-context evaluation with older adults. The schedule is presented as planned work while institutional and site arrangements continue.": {
+    "en": "Further collaboration and field activities are planned to begin in March 2027. The next phase will develop the museum case study, refine accessible handheld interactions, and prepare in-context evaluation with older adults. The schedule is presented as planned work while institutional and site arrangements continue.",
+    "zh-Hans": "进一步合作与实地研究活动计划于 2027 年 3 月启动。下一阶段将推进博物馆案例研究、优化无障碍手持交互，并准备与老年参与者开展情境化评估。目前该时间安排属于计划内容，机构与场地协调工作仍在进行。",
+    "zh-Hant": "進一步合作與實地研究活動計劃於 2027 年 3 月啟動。下一階段將推進博物館案例研究、優化無障礙手持交互，並準備與老年參與者開展情境化評估。目前該時間安排屬於計劃內容，機構與場地協調工作仍在進行。"
+  },
+  "Research framework connecting the Rewi Alley Museum, cultural narrative, older adults, and interaction design.": {
+    "en": "Research framework connecting the Rewi Alley Museum, cultural narrative, older adults, and interaction design.",
+    "zh-Hans": "连接路易·艾黎博物馆、文化叙事、老年人与交互设计的研究框架。",
+    "zh-Hant": "連接路易·艾黎博物館、文化敘事、老年人與交互設計的研究框架。"
+  },
+  "Research framework · Built heritage, cultural narrative, user needs, and interaction design": {
+    "en": "Research framework · Built heritage, cultural narrative, user needs, and interaction design",
+    "zh-Hans": "研究框架 · 建筑遗产、文化叙事、用户需求与交互设计",
+    "zh-Hant": "研究框架 · 建築遺產、文化敘事、用戶需求與交互設計"
+  },
+  "Visit the Rewi Alley Museum website": {
+    "en": "Visit the Rewi Alley Museum website",
+    "zh-Hans": "访问路易·艾黎博物馆官网",
+    "zh-Hant": "訪問路易·艾黎博物館官網"
+  },
+  "A visual timeline showing selected milestones in digital museum development.": {
+    "en": "A visual timeline showing selected milestones in digital museum development.",
+    "zh-Hans": "展示数字博物馆发展若干重要节点的视觉时间线。",
+    "zh-Hant": "展示數字博物館發展若干重要節點的視覺時間線。"
+  },
+  "Research context · Selected milestones in digital museum development": {
+    "en": "Research context · Selected milestones in digital museum development",
+    "zh-Hans": "研究背景 · 数字博物馆发展的若干重要节点",
+    "zh-Hant": "研究背景 · 數字博物館發展的若干重要節點"
+  },
+  "Period": {
+    "en": "Period",
+    "zh-Hans": "项目周期",
+    "zh-Hant": "項目週期"
+  },
+  "Programme": {
+    "en": "Programme",
+    "zh-Hans": "项目类别",
+    "zh-Hant": "項目類別"
+  },
+  "Jiangsu Province Postgraduate Research Innovation Project": {
+    "en": "Jiangsu Province Postgraduate Research Innovation Project",
+    "zh-Hans": "江苏省研究生科研创新项目",
+    "zh-Hant": "江蘇省研究生科研創新項目"
+  },
+  "Funding amount": {
+    "en": "Funding amount",
+    "zh-Hans": "资助金额",
+    "zh-Hant": "資助金額"
+  },
+  "This master’s research project examines how art and technology can work together to support the digital preservation, interpretation, and communication of intangible cultural heritage. It connects design research with digital media practice and considers how cultural knowledge can be represented without separating it from its social context, embodied practices, and community meanings.": {
+    "en": "This master’s research project examines how art and technology can work together to support the digital preservation, interpretation, and communication of intangible cultural heritage. It connects design research with digital media practice and considers how cultural knowledge can be represented without separating it from its social context, embodied practices, and community meanings.",
+    "zh-Hans": "该硕士研究项目探索艺术与技术如何协同支持非物质文化遗产的数字化保护、阐释与传播。项目将设计研究与数字媒体实践相结合，关注如何在保留社会情境、具身实践与社群意义的基础上呈现文化知识。",
+    "zh-Hant": "該碩士研究項目探索藝術與技術如何協同支持非物質文化遺產的數字化保護、闡釋與傳播。項目將設計研究與數字媒體實踐相結合，關注如何在保留社會情境、具身實踐與社群意義的基礎上呈現文化知識。"
+  },
+  "The project explores forms including digital archives, interactive narratives, visualisation, virtual exhibitions, and immersive media. Its aim is to develop a design-led framework that balances technological innovation with cultural accuracy, public engagement, and the sustainable transmission of heritage.": {
+    "en": "The project explores forms including digital archives, interactive narratives, visualisation, virtual exhibitions, and immersive media. Its aim is to develop a design-led framework that balances technological innovation with cultural accuracy, public engagement, and the sustainable transmission of heritage.",
+    "zh-Hans": "项目探索数字档案、交互叙事、信息可视化、虚拟展览与沉浸式媒介等形式，旨在形成以设计为导向的研究框架，在技术创新、文化准确性、公众参与和遗产可持续传承之间取得平衡。",
+    "zh-Hant": "項目探索數字檔案、交互敘事、信息可視化、虛擬展覽與沉浸式媒介等形式，旨在形成以設計為導向的研究框架，在技術創新、文化準確性、公眾參與和遺產可持續傳承之間取得平衡。"
+  },
+  "Project information": {
+    "en": "Project information",
+    "zh-Hans": "项目信息",
+    "zh-Hant": "項目信息"
+  },
+  "The project was supported as a Jiangsu Province Postgraduate Research Innovation Project for 2024–2026. The funding amount is intentionally displayed as ** on this public profile.": {
+    "en": "The project was supported as a Jiangsu Province Postgraduate Research Innovation Project for 2024–2026. The funding amount is intentionally displayed as ** on this public profile.",
+    "zh-Hans": "该项目获江苏省研究生科研创新项目支持，实施周期为 2024–2026 年。作为公开主页，本页面将资助金额显示为 **。",
+    "zh-Hant": "該項目獲江蘇省研究生科研創新項目支持，實施週期為 2024–2026 年。作為公開主頁，本頁面將資助金額顯示為 **。"
   }
 };
