@@ -4,11 +4,11 @@ collection: portfolio
 permalink: /projects/rewi-alley-museum-ar/
 excerpt: "An augmented reality museum interpretation concept that connects visitors with Rewi Alley-related heritage through situated storytelling and mobile interaction."
 category: "Museum AR collaboration"
-image: "/images/projects/rewi-alley-ar-development.jpg"
-image_alt: "An augmented reality prototype showing a model of the Rewi Alley Museum building."
+image: "/images/projects/rewi-alley-museum-interior.jpg"
+image_alt: "The bilingual introductory exhibition inside the Rewi Alley Museum in Christchurch."
 ---
 
-<figure class="project-hero"><img src="{{ '/images/projects/rewi-alley-ar-development.jpg' | relative_url }}" alt="An augmented reality prototype showing a model of the Rewi Alley Museum building."><figcaption>Prototype development · Recognising and presenting the museum building in AR</figcaption></figure>
+<figure class="project-hero"><img src="{{ '/images/projects/rewi-alley-museum-interior.jpg' | relative_url }}" alt="The bilingual introductory exhibition inside the Rewi Alley Museum in Christchurch."><figcaption>Rewi Alley Museum · Introductory exhibition in Christchurch <a href="https://www.rewialleymuseum.com/">Official website ↗</a></figcaption></figure>
 
 <div class="project-facts">
 <p><span>Project setting</span>Rewi Alley Museum · Christchurch, New Zealand</p>
@@ -23,7 +23,5 @@ The project is also interested in how AR can support cross-cultural interpretati
 ## Planned collaboration
 
 Further collaboration and field activities are planned to begin in March 2027. The next phase will develop the museum case study, refine accessible handheld interactions, and prepare in-context evaluation with older adults. The schedule is presented as planned work while institutional and site arrangements continue.
-
-<figure class="project-figure"><img src="{{ '/images/projects/rewi-alley-research-framework.jpg' | relative_url }}" alt="Research framework connecting the Rewi Alley Museum, cultural narrative, older adults, and interaction design."><figcaption>Research framework · Built heritage, cultural narrative, user needs, and interaction design</figcaption></figure>
 
 <p class="project-link"><a href="https://www.rewialleymuseum.com/">Visit the Rewi Alley Museum website <span aria-hidden="true">↗</span></a></p>
