@@ -13,8 +13,8 @@ title                    : "Jichun Zhao (Elliot Chiu)"
 title_separator          : "-"
 name                     : &name "Jichun Zhao (Elliot Chiu)"
 description              : &description "Jichun Zhao (Elliot Chiu) is a PhD Candidate at HIT Lab NZ and DISC101 Tutor at the University of Canterbury, researching human–computer interaction, accessible handheld augmented reality for older adults, and digital cultural heritage."
-url                      : "https://elliot1540.github.io"
-baseurl                  : "/ElliotChiu.github.io"
+url                      : "https://jichunzhao.com"
+baseurl                  : ""
 repository               : "Elliot1540/ElliotChiu.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
