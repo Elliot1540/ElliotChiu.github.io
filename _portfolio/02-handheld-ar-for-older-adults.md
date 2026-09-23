@@ -23,5 +23,3 @@ The project frames older adults not as passive recipients of simplified technolo
 ## Research programme
 
 The doctoral programme follows a three-study progression: identifying interaction barriers and preferences, translating the findings into explicit design requirements, and evaluating the refined experience in a museum context. The research compares interaction approaches while considering usability, cognitive load, user experience, task performance, confidence, and accessibility.
-
-<figure class="project-figure project-figure--portrait"><img src="{{ '/images/projects/doctoral-study-overview.jpg' | relative_url }}" alt="Research overview for the first study on interaction methods for older adults using handheld augmented reality."><figcaption>Study 1 overview · Comparing joystick, button, and device-tilt interaction</figcaption></figure>
