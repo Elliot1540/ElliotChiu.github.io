@@ -4,7 +4,7 @@
     "label": "PhD Candidate, HIT Lab NZ; DISC101 Tutor, University of Canterbury",
     "email": "jichun.zhao@pg.canterbury.ac.nz",
     "phone": "",
-    "website": "https://elliot1540.github.io/ElliotChiu.github.io/",
+    "website": "https://jichunzhao.com/",
     "summary": "PhD Candidate at HIT Lab NZ and DISC101 Tutor at the University of Canterbury, researching Human–Computer Interaction, XR Accessibility, Digital Cultural Heritage, Ageing, and Handheld Augmented Reality.",
     "location": {
       "address": "",
@@ -44,8 +44,8 @@
     },
     {
       "institution": "Tsinghua University and Jiangsu Normal University",
-      "area": "Master of Arts",
-      "studyType": "Master of Arts",
+      "area": "Design Studies",
+      "studyType": "Master’s Degree in Art",
       "startDate": "2022",
       "endDate": "2025",
       "gpa": null,
@@ -53,8 +53,8 @@
     },
     {
       "institution": "Jiangsu Normal University",
-      "area": "Bachelor of Arts",
-      "studyType": "Bachelor of Arts",
+      "area": "Digital Media Art",
+      "studyType": "Bachelor’s Degree in Art",
       "startDate": "2018",
       "endDate": "2022",
       "gpa": null,
@@ -91,35 +91,40 @@
   "references": [],
   "publications": [
     {
-      "name": "Practical Approaches for the Protection and Inheritance of Intangible Cultural Heritage from the Perspective of Rural Revitalization: A Case Study of Xuzhou Mazhuang Sachets",
-      "publisher": "Journal of Xuzhou University of Technology (Social Sciences Edition)",
+      "name": "Protecting and Transmitting Intangible Cultural Heritage through Rural Revitalization: The Mazhuang Sachet Case",
+      "publisher": "Journal of Xuzhou University of Technology (Social Sciences Edition), 41(1), 9–16",
       "releaseDate": "2026",
-      "summary": "Research on the protection and inheritance of intangible cultural heritage through the case study of Mazhuang Sachets under the perspective of rural revitalization."
+      "summary": "A case study connecting the living transmission of the Mazhuang sachet tradition with community participation, cultural identity, and rural revitalization."
     },
     {
-      "name": "Research on Digital Preservation Pathways for Intangible Cultural Heritage in Xuzhou",
+      "name": "Digital Preservation Pathways for Intangible Cultural Heritage in Xuzhou",
       "publisher": "Creative Design Source, 2025(4), 32–36",
-      "releaseDate": "2025"
+      "releaseDate": "2025",
+      "summary": "A regional preservation pathway linking cultural context with digital collection, 3D modelling, public display, and participation."
     },
     {
-      "name": "Practical Approaches to the Inheritance and Protection of Intangible Cultural Heritage in the Context of Rural Revitalization: A Case Study of Mazhuang Sachets in Xuzhou, Jiangsu",
+      "name": "Practical Approaches to Intangible Cultural Heritage in Rural Revitalization: The Mazhuang Sachet Case",
       "publisher": "Proceedings of the 2024 Annual Conference on Intangible Cultural Heritage",
-      "releaseDate": "2024"
+      "releaseDate": "2024",
+      "summary": "A conference paper on reactivating local heritage resources within rural revitalization."
     },
     {
-      "name": "Design of Digital Museums for Intangible Cultural Heritage Based on Spatial Computing Technology",
+      "name": "Designing Digital Museums for Intangible Cultural Heritage with Spatial Computing",
       "publisher": "Beauty & Times, 2024(5), 108–111",
-      "releaseDate": "2024"
+      "releaseDate": "2024",
+      "summary": "An exploration of spatial computing for heritage preservation, interpretation, and public access in digital museums."
     },
     {
-      "name": "Practical Approaches for the Protection and Inheritance of Intangible Cultural Heritage from the Perspective of Rural Revitalization: A Case Study of Xuzhou Mazhuang Sachets in Xuzhou",
+      "name": "Protecting and Transmitting Intangible Cultural Heritage through Rural Revitalization",
       "publisher": "Humanistic Economics Studies, 1, 200–213",
-      "releaseDate": "2024"
+      "releaseDate": "2024",
+      "summary": "Practice-oriented pathways for sustaining the Mazhuang sachet tradition through community and rural development."
     },
     {
-      "name": "New Perspectives on Contemporary Design Criticism",
+      "name": "New Reflections on Modern Design Criticism",
       "publisher": "Art and Technology, 36, 109–111",
-      "releaseDate": "2023"
+      "releaseDate": "2023",
+      "summary": "A study of the theoretical form, contemporary role, practical value, and educational significance of design criticism."
     }
   ],
   "presentations": [],
@@ -181,7 +186,7 @@
     },
     {
       "name": "Digital Preservation of Intangible Cultural Heritage through Art–Technology Integration",
-      "category": "Master's Research Project",
+      "category": "Research Grant",
       "date": "2024–2026",
       "url": "/projects/intangible-cultural-heritage-digital-preservation/",
       "description": "A Jiangsu Province Postgraduate Research Innovation Project examining digital preservation of intangible cultural heritage from an art–technology integration perspective."
