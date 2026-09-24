@@ -945,11 +945,6 @@ window.academicTranslations = {
     "zh-Hans": "江苏省研究生科研创新项目",
     "zh-Hant": "江蘇省研究生科研創新項目"
   },
-  "Funding amount": {
-    "en": "Funding amount",
-    "zh-Hans": "资助金额",
-    "zh-Hant": "資助金額"
-  },
   "This master’s research project examines how art and technology can work together to support the digital preservation, interpretation, and communication of intangible cultural heritage. It connects design research with digital media practice and considers how cultural knowledge can be represented without separating it from its social context, embodied practices, and community meanings.": {
     "en": "This master’s research project examines how art and technology can work together to support the digital preservation, interpretation, and communication of intangible cultural heritage. It connects design research with digital media practice and considers how cultural knowledge can be represented without separating it from its social context, embodied practices, and community meanings.",
     "zh-Hans": "该硕士研究项目探索艺术与技术如何协同支持非物质文化遗产的数字化保护、阐释与传播。项目将设计研究与数字媒体实践相结合，关注如何在保留社会情境、具身实践与社群意义的基础上呈现文化知识。",
@@ -964,11 +959,6 @@ window.academicTranslations = {
     "en": "Project information",
     "zh-Hans": "项目信息",
     "zh-Hant": "項目信息"
-  },
-  "The project was supported as a Jiangsu Province Postgraduate Research Innovation Project for 2024–2026. The funding amount is intentionally displayed as ** on this public profile.": {
-    "en": "The project was supported as a Jiangsu Province Postgraduate Research Innovation Project for 2024–2026. The funding amount is intentionally displayed as ** on this public profile.",
-    "zh-Hans": "该项目获江苏省研究生科研创新项目支持，实施周期为 2024–2026 年。作为公开主页，本页面将资助金额显示为 **。",
-    "zh-Hant": "該項目獲江蘇省研究生科研創新項目支持，實施週期為 2024–2026 年。作為公開主頁，本頁面將資助金額顯示為 **。"
   },
   "Original title": {"en":"Original title","zh-Hans":"中文原题","zh-Hant":"中文原題"},
   "Authors": {"en":"Authors","zh-Hans":"作者","zh-Hant":"作者"},
@@ -1025,7 +1015,7 @@ window.academicTranslations = {
   "Grant cover · Art–technology integration for digital preservation of intangible cultural heritage": {"en":"Grant cover · Art–technology integration for digital preservation of intangible cultural heritage","zh-Hans":"基金项目封面 · 科艺融合视域下的非遗数字化保护","zh-Hant":"基金項目封面 · 科藝融合視域下的非遺數字化保護"},
   "Grant number": {"en":"Grant number","zh-Hans":"项目编号","zh-Hant":"項目編號"},
   "This research grant examines how art and technology can work together to support the digital preservation, interpretation, and communication of intangible cultural heritage in the Xuzhou region. It connects design research with digital media practice and considers how cultural knowledge can be represented without separating it from its social context, embodied practices, and community meanings.": {"en":"This research grant examines how art and technology can work together to support the digital preservation, interpretation, and communication of intangible cultural heritage in the Xuzhou region. It connects design research with digital media practice and considers how cultural knowledge can be represented without separating it from its social context, embodied practices, and community meanings.","zh-Hans":"该科研基金项目探索艺术与技术如何协同支持徐州地区非物质文化遗产的数字化保护、阐释与传播。项目将设计研究与数字媒体实践相结合，关注如何在保留社会情境、具身实践与社群意义的基础上呈现文化知识。","zh-Hant":"該科研基金項目探索藝術與技術如何協同支持徐州地區非物質文化遺產的數字化保護、闡釋與傳播。項目將設計研究與數字媒體實踐相結合，關注如何在保留社會情境、具身實踐與社群意義的基礎上呈現文化知識。"},
-  "The project was supported by the Jiangsu Province Postgraduate Research and Practice Innovation Programme from 2024 to 2026. Its official Chinese project title is “科艺融合视域下徐州地区非遗数字化保护途径研究” and its grant number is KYCX24-3042. The funding amount is intentionally displayed as ** on this public profile.": {"en":"The project was supported by the Jiangsu Province Postgraduate Research and Practice Innovation Programme from 2024 to 2026. Its official Chinese project title is “科艺融合视域下徐州地区非遗数字化保护途径研究” and its grant number is KYCX24-3042. The funding amount is intentionally displayed as ** on this public profile.","zh-Hans":"该项目于 2024 至 2026 年获江苏省研究生科研与实践创新计划支持，正式项目名称为“科艺融合视域下徐州地区非遗数字化保护途径研究”，项目编号为 KYCX24-3042。公开主页中的资助金额以 ** 显示。","zh-Hant":"該項目於 2024 至 2026 年獲江蘇省研究生科研與實踐創新計劃支持，正式項目名稱為「科藝融合視域下徐州地區非遺數字化保護途徑研究」，項目編號為 KYCX24-3042。公開主頁中的資助金額以 ** 顯示。"},
+  "The project was supported by the Jiangsu Province Postgraduate Research and Practice Innovation Programme from 2024 to 2026. Its official Chinese project title is “科艺融合视域下徐州地区非遗数字化保护途径研究” and its grant number is KYCX24-3042.": {"en":"The project was supported by the Jiangsu Province Postgraduate Research and Practice Innovation Programme from 2024 to 2026. Its official Chinese project title is “科艺融合视域下徐州地区非遗数字化保护途径研究” and its grant number is KYCX24-3042.","zh-Hans":"该项目于 2024 至 2026 年获江苏省研究生科研与实践创新计划支持，正式项目名称为“科艺融合视域下徐州地区非遗数字化保护途径研究”，项目编号为 KYCX24-3042。","zh-Hant":"該項目於 2024 至 2026 年獲江蘇省研究生科研與實踐創新計劃支持，正式項目名稱為「科藝融合視域下徐州地區非遺數字化保護途徑研究」，項目編號為 KYCX24-3042。"},
   "The bilingual introductory exhibition inside the Rewi Alley Museum in Christchurch.": {"en":"The bilingual introductory exhibition inside the Rewi Alley Museum in Christchurch.","zh-Hans":"新西兰基督城路易·艾黎博物馆内的双语序厅展陈。","zh-Hant":"新西蘭基督城路易·艾黎博物館內的雙語序廳展陳。"},
   "Rewi Alley Museum · Introductory exhibition in Christchurch": {"en":"Rewi Alley Museum · Introductory exhibition in Christchurch","zh-Hans":"路易·艾黎博物馆 · 基督城序厅展陈","zh-Hant":"路易·艾黎博物館 · 基督城序廳展陳"},
   "Official website ↗": {"en":"Official website ↗","zh-Hans":"官方网站 ↗","zh-Hant":"官方網站 ↗"},
