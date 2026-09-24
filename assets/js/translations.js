@@ -981,6 +981,7 @@ window.academicTranslations = {
   "Find the article on Wanfang ↗": {"en":"Find the article on Wanfang ↗","zh-Hans":"在万方查找论文 ↗","zh-Hant":"在萬方查找論文 ↗"},
   "Find the paper on Wanfang ↗": {"en":"Find the paper on Wanfang ↗","zh-Hans":"在万方查找论文 ↗","zh-Hant":"在萬方查找論文 ↗"},
   "Find on Wanfang ↗": {"en":"Find on Wanfang ↗","zh-Hans":"在万方查找 ↗","zh-Hant":"在萬方查找 ↗"},
+  "View on CNKI Overseas ↗": {"en":"View on CNKI Overseas ↗","zh-Hans":"在知网海外版查看 ↗","zh-Hant":"在知網海外版查看 ↗"},
   "Read the public article ↗": {"en":"Read the public article ↗","zh-Hans":"阅读公开全文 ↗","zh-Hant":"閱讀公開全文 ↗"},
   "New Reflections on Modern Design Criticism": {"en":"New Reflections on Modern Design Criticism","zh-Hans":"现代设计批评中的新思考","zh-Hant":"現代設計批評中的新思考"},
   "Practical Approaches to Intangible Cultural Heritage in Rural Revitalization: The Mazhuang Sachet Case": {"en":"Practical Approaches to Intangible Cultural Heritage in Rural Revitalization: The Mazhuang Sachet Case","zh-Hans":"乡村振兴视野下的非物质文化遗产传承与保护实践——以马庄香包为例","zh-Hant":"鄉村振興視野下的非物質文化遺產傳承與保護實踐——以馬莊香包為例"},
