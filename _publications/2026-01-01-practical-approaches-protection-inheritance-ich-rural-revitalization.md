@@ -7,15 +7,15 @@ permalink: /publications/practical-approaches-protection-inheritance-ich-rural-r
 excerpt: "A 2026 case study of the Mazhuang sachet tradition that connects living heritage, rural revitalization, and sustainable cultural development."
 year: 2026
 sort_order: 202606
-venue: "Journal of Xuzhou University of Technology (Social Sciences Edition)"
-citation: "Zhao, J. (2026). Protecting and transmitting intangible cultural heritage through rural revitalization: The Mazhuang Sachet case. Journal of Xuzhou University of Technology (Social Sciences Edition), 41(1), 9–16."
-paperurl: "https://s.wanfangdata.com.cn/paper?q=%E4%B9%A1%E6%9D%91%E6%8C%AF%E5%85%B4%E8%A7%86%E5%9F%9F%E4%B8%8B%E9%9D%9E%E7%89%A9%E8%B4%A8%E6%96%87%E5%8C%96%E9%81%97%E4%BA%A7%E4%BF%9D%E6%8A%A4%E4%B8%8E%E4%BC%A0%E6%89%BF%E7%9A%84%E5%AE%9E%E8%B7%B5%E8%B7%AF%E5%BE%84%E7%A0%94%E7%A9%B6%20%E8%B5%B5%E5%AD%A3%E6%B7%B3"
+venue: "Journal of Xuzhou Institute of Technology (Social Sciences Edition)"
+citation: "Zhao, J. (2026). Protecting and transmitting intangible cultural heritage through rural revitalization: The Mazhuang Sachet case. Journal of Xuzhou Institute of Technology (Social Sciences Edition), 41(1), 9–16."
+paperurl: "https://oversea.cnki.net/kcms2/article/abstract?v=tQWh-SbE9GocrKUy65TlW6qsC0OdcOLZpJpVK8BF0pUBonIw65xgMEVY40fYkwybyEexJjK-pU9jKZVLfQ19QnD-gSZ-DLQ67ufWBUsDEFUFM1xBO8afIWmg3WHX5zXhjNaheDkIEhNacrNj1jPcWbhE03X7uYn_5SgIWf_0Gg9VIjV9AD-Vhw==&uniplatform=OVERSEA&language=EN"
 ---
 
 <div class="project-facts publication-facts">
 <p><span>Original title</span>乡村振兴视域下非物质文化遗产保护传承实践路径研究——以江苏徐州马庄香包为例</p>
 <p><span>Authors</span>Jichun Zhao</p>
-<p><span>Source</span>Journal of Xuzhou University of Technology (Social Sciences Edition) · 41(1) · 9–16</p>
+<p><span>Source</span>Journal of Xuzhou Institute of Technology (Social Sciences Edition) · 41(1) · 9–16</p>
 </div>
 
 ## Abstract
@@ -30,4 +30,4 @@ The study proposes practical pathways centred on living transmission, community 
 
 This research was supported by the Jiangsu Province Postgraduate Research Innovation Project, “Research on Digital Preservation Pathways for Intangible Cultural Heritage in Xuzhou through Art–Technology Integration” (KYCX24-3042).
 
-<p class="publication-links"><a href="https://s.wanfangdata.com.cn/paper?q=%E4%B9%A1%E6%9D%91%E6%8C%AF%E5%85%B4%E8%A7%86%E5%9F%9F%E4%B8%8B%E9%9D%9E%E7%89%A9%E8%B4%A8%E6%96%87%E5%8C%96%E9%81%97%E4%BA%A7%E4%BF%9D%E6%8A%A4%E4%B8%8E%E4%BC%A0%E6%89%BF%E7%9A%84%E5%AE%9E%E8%B7%B5%E8%B7%AF%E5%BE%84%E7%A0%94%E7%A9%B6%20%E8%B5%B5%E5%AD%A3%E6%B7%B3">Find the article on Wanfang ↗</a></p>
+<p class="publication-links"><a href="https://oversea.cnki.net/kcms2/article/abstract?v=tQWh-SbE9GocrKUy65TlW6qsC0OdcOLZpJpVK8BF0pUBonIw65xgMEVY40fYkwybyEexJjK-pU9jKZVLfQ19QnD-gSZ-DLQ67ufWBUsDEFUFM1xBO8afIWmg3WHX5zXhjNaheDkIEhNacrNj1jPcWbhE03X7uYn_5SgIWf_0Gg9VIjV9AD-Vhw==&uniplatform=OVERSEA&language=EN">View on CNKI Overseas ↗</a></p>
