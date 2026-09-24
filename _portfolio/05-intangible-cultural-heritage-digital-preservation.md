@@ -14,7 +14,6 @@ image_alt: "An editorial visualization combining paper cutting, embroidered sach
 <p><span>Period</span>2024–2026</p>
 <p><span>Programme</span>Jiangsu Province Postgraduate Research Innovation Project</p>
 <p><span>Grant number</span>KYCX24-3042</p>
-<p><span>Funding amount</span>**</p>
 </div>
 
 This research grant examines how art and technology can work together to support the digital preservation, interpretation, and communication of intangible cultural heritage in the Xuzhou region. It connects design research with digital media practice and considers how cultural knowledge can be represented without separating it from its social context, embodied practices, and community meanings.
@@ -23,4 +22,4 @@ The project explores forms including digital archives, interactive narratives, v
 
 ## Project information
 
-The project was supported by the Jiangsu Province Postgraduate Research and Practice Innovation Programme from 2024 to 2026. Its official Chinese project title is “科艺融合视域下徐州地区非遗数字化保护途径研究” and its grant number is KYCX24-3042. The funding amount is intentionally displayed as ** on this public profile.
+The project was supported by the Jiangsu Province Postgraduate Research and Practice Innovation Programme from 2024 to 2026. Its official Chinese project title is “科艺融合视域下徐州地区非遗数字化保护途径研究” and its grant number is KYCX24-3042.
