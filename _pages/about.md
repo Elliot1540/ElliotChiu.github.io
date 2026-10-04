@@ -58,7 +58,12 @@ redirect_from:
   <div class="section-heading heading-row"><div><p class="eyebrow">06 / Academic exchange</p><h2 id="exchange-title">Ideas in conversation</h2></div><a href="{{ '/exchange/' | relative_url }}">Academic Exchange <span aria-hidden="true">↗</span></a></div>
   {% include academic-exchange.html %}
 </section>
+<section id="engagements" class="section" aria-labelledby="engagements-title">
+  <div class="section-heading"><p class="eyebrow">07 / Engagements</p><h2 id="engagements-title">Selected Engagements</h2></div>
+  <p class="section-intro">Community service, educational exchange, and professional connections beyond my research.</p>
+  {% include academic-engagements.html %}
+</section>
 <section id="contact" class="section contact" aria-labelledby="contact-title">
-  <div><p class="eyebrow">07 / Contact</p><h2 id="contact-title">Let’s connect.</h2><p>For conversations about HCI, accessible AR, cultural heritage, or research collaboration, please get in touch.</p><a class="email-link" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></div>
+  <div><p class="eyebrow">08 / Contact</p><h2 id="contact-title">Let’s connect.</h2><p>For conversations about HCI, accessible AR, cultural heritage, or research collaboration, please get in touch.</p><a class="email-link" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></div>
   <div class="contact-details"><h3>Affiliation</h3><p>HIT Lab NZ<br>University of Canterbury<br>Christchurch, New Zealand</p><h3>Languages</h3><p>English · Chinese · Cantonese</p></div>
 </section>
