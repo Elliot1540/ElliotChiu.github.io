@@ -1,0 +1,15 @@
+<div class="engagement-grid">
+  {% for item in site.data.engagements %}
+  <article class="engagement-card">
+    <a class="engagement-image" href="{{ item.image | relative_url }}">
+      <img src="{{ item.image | relative_url }}" alt="{{ item.alt.en | escape }}" data-localized-alt="{{ item.alt | jsonify | escape }}" loading="lazy">
+    </a>
+    <div class="engagement-copy">
+      <time datetime="{{ item.date }}" data-localized="{{ item.display_date | jsonify | escape }}">{{ item.display_date.en }}</time>
+      <h3 data-localized="{{ item.title | jsonify | escape }}">{{ item.title.en }}</h3>
+      <p data-localized="{{ item.caption | jsonify | escape }}">{{ item.caption.en }}</p>
+      <div class="engagement-links"><a href="{{ item.image | relative_url }}">View image</a>{% if item.source %}<a href="{{ item.source }}" data-localized="{{ item.source_label | jsonify | escape }}">{{ item.source_label.en }}</a>{% endif %}</div>
+    </div>
+  </article>
+  {% endfor %}
+</div>
