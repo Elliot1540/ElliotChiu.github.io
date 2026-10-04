@@ -220,7 +220,7 @@ html[lang^=zh] h1,html[lang^=zh] h2{letter-spacing:0;line-height:1.4}
 @media print{.carousel-progress{display:none}}
 
 /* Selected professional and community engagements. Keep full photographs visible. */
-.engagement-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}
+.engagement-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}
 .engagement-card{min-width:0;border:1px solid var(--line);border-radius:4px;overflow:hidden;background:var(--paper)}
 .engagement-image{display:flex;align-items:center;justify-content:center;aspect-ratio:4/3;background:var(--wash)}
 .engagement-image img{display:block;width:100%;height:100%;object-fit:contain}
