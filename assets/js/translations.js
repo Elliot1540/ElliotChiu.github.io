@@ -1027,5 +1027,32 @@ window.academicTranslations = {
   "Feng Ding · Jichun Zhao": {"en":"Feng Ding · Jichun Zhao","zh-Hans":"丁峰 · 赵季淳","zh-Hant":"丁峰 · 趙季淳"},
   "乡村振兴视域下非物质文化遗产保护传承实践路径研究——以江苏徐州马庄香包为例": {"en":"乡村振兴视域下非物质文化遗产保护传承实践路径研究——以江苏徐州马庄香包为例","zh-Hans":"乡村振兴视域下非物质文化遗产保护传承实践路径研究——以江苏徐州马庄香包为例","zh-Hant":"鄉村振興視域下非物質文化遺產保護傳承實踐路徑研究——以江蘇徐州馬莊香包為例"},
   "This study addresses the pressures facing Xuzhou’s intangible cultural heritage under modernization and examines the value of digital technology for its protection and transmission. Using literature review, case analysis, and field research, it systematically reviews local preservation work and digital practice.": {"en":"This study addresses the pressures facing Xuzhou’s intangible cultural heritage under modernization and examines the value of digital technology for its protection and transmission. Using literature review, case analysis, and field research, it systematically reviews local preservation work and digital practice.","zh-Hans":"本研究针对现代化进程中徐州非物质文化遗产面临的存续压力，探讨数字技术在保护与传承中的应用价值。研究通过文献研究、案例分析与田野调查，系统梳理地方保护工作与数字化实践。","zh-Hant":"本研究針對現代化進程中徐州非物質文化遺產面臨的存續壓力，探討數字技術在保護與傳承中的應用價值。研究通過文獻研究、案例分析與田野調查，系統梳理地方保護工作與數字化實踐。"},
-  "The findings identify an emerging multi-stakeholder mechanism and a digital framework spanning collection, management, and display. These practices extend public reach, while ageing inheritors, technical cost, and the difficulty of retaining the living character of heritage remain significant challenges. The paper therefore argues for a pathway that coordinates cultural context, appropriate technology, and public participation.": {"en":"The findings identify an emerging multi-stakeholder mechanism and a digital framework spanning collection, management, and display. These practices extend public reach, while ageing inheritors, technical cost, and the difficulty of retaining the living character of heritage remain significant challenges. The paper therefore argues for a pathway that coordinates cultural context, appropriate technology, and public participation.","zh-Hans":"研究发现，徐州已初步形成多主体协同机制以及涵盖采集、管理与展示的数字化框架，扩大了非遗传播范围；但传承人高龄化、技术成本较高和活态性维护困难仍是重要挑战。因此，论文主张构建协调文化语境、适用技术与公众参与的保护路径。","zh-Hant":"研究發現，徐州已初步形成多主體協同機制以及涵蓋採集、管理與展示的數字化框架，擴大了非遺傳播範圍；但傳承人高齡化、技術成本較高和活態性維護困難仍是重要挑戰。因此，論文主張構建協調文化語境、適用技術與公眾參與的保護路徑。"}
+  "The findings identify an emerging multi-stakeholder mechanism and a digital framework spanning collection, management, and display. These practices extend public reach, while ageing inheritors, technical cost, and the difficulty of retaining the living character of heritage remain significant challenges. The paper therefore argues for a pathway that coordinates cultural context, appropriate technology, and public participation.": {"en":"The findings identify an emerging multi-stakeholder mechanism and a digital framework spanning collection, management, and display. These practices extend public reach, while ageing inheritors, technical cost, and the difficulty of retaining the living character of heritage remain significant challenges. The paper therefore argues for a pathway that coordinates cultural context, appropriate technology, and public participation.","zh-Hans":"研究发现，徐州已初步形成多主体协同机制以及涵盖采集、管理与展示的数字化框架，扩大了非遗传播范围；但传承人高龄化、技术成本较高和活态性维护困难仍是重要挑战。因此，论文主张构建协调文化语境、适用技术与公众参与的保护路径。","zh-Hant":"研究發現，徐州已初步形成多主體協同機制以及涵蓋採集、管理與展示的數字化框架，擴大了非遺傳播範圍；但傳承人高齡化、技術成本較高和活態性維護困難仍是重要挑戰。因此，論文主張構建協調文化語境、適用技術與公眾參與的保護路徑。"},
+
+  "07 / Engagements": {
+    "en": "07 / Engagements",
+    "zh-Hans": "07 / 社会交流",
+    "zh-Hant": "07 / 社會交流"
+  },
+  "Selected Engagements": {
+    "en": "Selected Engagements",
+    "zh-Hans": "精选活动",
+    "zh-Hant": "精選活動"
+  },
+  "Community service, educational exchange, and professional connections beyond my research.": {
+    "en": "Community service, educational exchange, and professional connections beyond my research.",
+    "zh-Hans": "研究之外的社区服务、教育交流与专业联系。",
+    "zh-Hant": "研究之外的社區服務、教育交流與專業聯繫。"
+  },
+  "View image": {
+    "en": "View image",
+    "zh-Hans": "查看原图",
+    "zh-Hant": "查看原圖"
+  },
+  "08 / Contact": {
+    "en": "08 / Contact",
+    "zh-Hans": "08 / 联系",
+    "zh-Hant": "08 / 聯繫"
+  }
+
 };
