@@ -231,3 +231,11 @@ html[lang^=zh] h1,html[lang^=zh] h2{letter-spacing:0;line-height:1.4}
 .engagement-links{display:flex;flex-wrap:wrap;gap:10px 20px;margin-top:20px;font-size:.82rem}
 @media(max-width:800px){.engagement-grid{grid-template-columns:1fr}.engagement-card{display:grid;grid-template-columns: minmax(0,1fr) minmax(0,1fr)}.engagement-image{align-self:start}}
 @media(max-width:540px){.engagement-card{display:block}}
+
+/* The homepage keeps three full publication entries in an independent scroll area. */
+.publication-window{height:760px;overflow-y:auto;overscroll-behavior-y:contain;scrollbar-gutter:stable;padding-right:18px;border-bottom:1px solid var(--line);scrollbar-color:var(--accent) var(--wash);scrollbar-width:thin}
+.publication-window:focus-visible{outline:2px solid var(--accent);outline-offset:6px}
+.publication-scroll-hint{font-size:.8rem;color:var(--muted);margin:0 0 22px}
+html[lang=ja] body{font-family:-apple-system,BlinkMacSystemFont,"Hiragino Kaku Gothic ProN","Yu Gothic",Meiryo,sans-serif}
+html[lang=ja] h1,html[lang=ja] h2{letter-spacing:0;line-height:1.4}
+@media print{.publication-window{height:auto!important;overflow:visible;border:0;padding:0}.publication-scroll-hint{display:none}}
