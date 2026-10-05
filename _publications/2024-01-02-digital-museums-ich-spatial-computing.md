@@ -6,7 +6,7 @@ publication_type: "Journal Article"
 permalink: /publications/digital-museums-ich-spatial-computing/
 excerpt: "Explores how spatial computing can support new forms of preservation, interpretation, and public access in digital museums."
 year: 2024
-sort_order: 202403
+sort_order: 202404
 venue: "Designs"
 citation: "Zhao, J., & Ding, F. (2024). Designing digital museums for intangible cultural heritage with spatial computing. Designs, 2024(2), 108–111."
 paperurl: "https://oversea.cnki.net/kcms2/article/abstract?v=tQWh-SbE9GqytYCV4B1dGzR_zV3eNr_wM18V-TaCDrevY81F0KjGHoH2uG5NYcrDjhXDZoOq9y-FfjEGycmwxORVXK8cQkqiXUassCq-A52Ox0SDCKJ5f8RlYDae_G5_IogWlI_2O2VET4rCJSdMGiK8NK8UOZ-oEQbxSsr5truVPF3V1i_V1w==&uniplatform=OVERSEA&language=EN"
