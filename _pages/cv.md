@@ -20,7 +20,7 @@ My work focuses on Human–Computer Interaction, XR Accessibility, Digital Cultu
 Current positions
 ------
 * PhD Candidate, HIT Lab NZ, University of Canterbury
-* Tutor, DISC101 – Storytelling for Digital Screens, University of Canterbury
+* Tutor, DISC101 – Digital Storytelling, Faculty of Arts, University of Canterbury
 * Christchurch, New Zealand
 
 Education
@@ -40,7 +40,7 @@ Summer schools
 
 Teaching
 ------
-* Tutor, DISC101 – Storytelling for Digital Screens, Dovedale Campus, University of Canterbury
+* Tutor, DISC101 – Digital Storytelling, Faculty of Arts, University of Canterbury
 
 Research interests
 ------

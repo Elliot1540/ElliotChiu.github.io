@@ -40,15 +40,16 @@ redirect_from:
 </section>
 <section id="experience" class="section" aria-labelledby="experience-title">
   <div class="section-heading heading-row"><div><p class="eyebrow">04 / Experience</p><h2 id="experience-title">Research, teaching &amp; education</h2></div><a href="{{ '/cv/' | relative_url }}">Full CV <span aria-hidden="true">↗</span></a></div>
-  <div class="timeline">
+  <div class="timeline" id="homepage-experience" data-experience-preview>
     <article class="planned"><p class="period">Oct–Dec 2026 <span class="status-tag">Planned</span></p><div><h3>Visiting Research</h3><p><a href="https://www.riec.tohoku.ac.jp/en/">Research Institute of Electrical Communication (RIEC), Tohoku University</a></p><p class="muted">Sendai, Japan · Upcoming research visit</p></div></article>
     <article><p class="period">Current</p><div><h3>PhD Candidate</h3><p>HIT Lab NZ, University of Canterbury</p><p class="muted">Human–computer interaction, accessible handheld AR, and digital cultural heritage.</p></div></article>
-    <article><p class="period">Current</p><div><h3>Tutor · DISC101</h3><p>Storytelling for Digital Screens</p><p class="muted">Dovedale Campus, University of Canterbury</p></div></article>
+    <article><p class="period">Current</p><div><h3>Tutor · DISC101</h3><p>Digital Storytelling</p><p class="muted">Faculty of Arts, University of Canterbury</p></div></article>
     <article><p class="period">2022–2025</p><div><h3>Master’s Degree in Art · Design Studies</h3><p>Tsinghua University and Jiangsu Normal University</p></div></article>
     <article><p class="period">Jul–Aug 2023</p><div><h3>Summer School</h3><p>School of Design, Jiangnan University</p></div></article>
     <article><p class="period">Jun–Jul 2023</p><div><h3>Summer School</h3><p>Nanjing Normal University</p></div></article>
     <article><p class="period">2018–2022</p><div><h3>Bachelor’s Degree in Art · Digital Media Art</h3><p>Jiangsu Normal University</p></div></article>
   </div>
+  <button class="publication-more" type="button" aria-controls="homepage-experience" aria-expanded="false" hidden>Show more</button>
 </section>
 <section id="memberships" class="section" aria-labelledby="memberships-title">
   <div class="section-heading"><p class="eyebrow">05 / Professional community</p><h2 id="memberships-title">Professional memberships</h2></div>
