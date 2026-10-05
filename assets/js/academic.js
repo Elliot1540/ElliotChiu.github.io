@@ -3,7 +3,7 @@
   'use strict';
   const dictionary = window.academicTranslations || {};
   const picker = document.querySelector('#site-language');
-  const supported = ['en', 'zh-Hans', 'zh-Hant'];
+  const supported = ['en', 'zh-Hans', 'zh-Hant', 'ja'];
   let language = 'en';
   try { language = localStorage.getItem('academic-language') || 'en'; } catch (_) {}
   if (!supported.includes(language)) language = 'en';
@@ -109,6 +109,19 @@
       fallback.textContent = translate('Photo collection coming soon.'); img.replaceWith(fallback);
     }));
     show(0); label();
+  });
+  document.querySelectorAll('.publication-window').forEach(region => {
+    const list = region.querySelector('.publication-list');
+    const sizeWindow = () => {
+      const items = [...list.children];
+      if (!items.length) return;
+      const count = Math.min(3, items.length);
+      const height = items.slice(0, count).reduce((sum, item) => sum + item.getBoundingClientRect().height, 0);
+      region.style.height = `${Math.ceil(height)}px`;
+    };
+    new ResizeObserver(sizeWindow).observe(list);
+    document.addEventListener('academic:language', sizeWindow);
+    sizeWindow();
   });
   applyLanguage();
 })();
