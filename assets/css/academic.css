@@ -221,14 +221,14 @@ html[lang^=zh] h1,html[lang^=zh] h2{letter-spacing:0;line-height:1.4}
 
 /* Selected professional and community engagements. Keep full photographs visible. */
 .engagement-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px}
-.engagement-card{min-width:0;border:1px solid var(--line);border-radius:4px;overflow:hidden;background:var(--paper)}
+.engagement-card{display:flex;flex-direction:column;min-width:0;border:1px solid var(--line);border-radius:4px;overflow:hidden;background:var(--paper)}
 .engagement-image{display:flex;align-items:center;justify-content:center;aspect-ratio:4/3;background:var(--wash)}
 .engagement-image img{display:block;width:100%;height:100%;object-fit:contain}
-.engagement-copy{padding:18px}
+.engagement-copy{padding:18px;display:flex;flex-direction:column;flex:1}
 .engagement-copy time{display:block;color:var(--accent);font-size:.78rem;margin-bottom:12px}
 .engagement-copy h3{font-size:1.02rem;line-height:1.35}
 .engagement-copy p{font-size:.84rem;color:var(--muted);margin-top:14px}
-.engagement-links{display:flex;flex-wrap:wrap;gap:10px 20px;margin-top:20px;font-size:.82rem}
+.engagement-links{display:flex;flex-wrap:wrap;gap:10px 20px;margin-top:auto;padding-top:20px;font-size:.82rem}
 @media(max-width:800px){.engagement-grid{grid-template-columns:1fr}.engagement-card{display:grid;grid-template-columns: minmax(0,1fr) minmax(0,1fr)}.engagement-image{align-self:start}}
 @media(max-width:540px){.engagement-card{display:block}}
 
