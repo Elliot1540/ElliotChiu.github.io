@@ -233,10 +233,10 @@ html[lang^=zh] h1,html[lang^=zh] h2{letter-spacing:0;line-height:1.4}
 @media(max-width:540px){.engagement-card{display:block}}
 
 /* Homepage publication preview expands in the normal page flow. */
-.publication-list li[hidden],.publication-more[hidden]{display:none}
+.publication-list li[hidden],.timeline article[hidden],.publication-more[hidden]{display:none}
 .publication-more{margin-top:24px;padding:10px 20px;border:1px solid var(--accent);border-radius:4px;color:var(--accent);background:var(--paper);font:inherit;font-size:.9rem;cursor:pointer}
 .publication-more:hover{background:var(--wash)}
 .publication-more:focus-visible{outline:2px solid var(--accent);outline-offset:4px}
-@media print{.publication-list li[hidden]{display:grid}.publication-more{display:none}}
+@media print{.publication-list li[hidden],.timeline article[hidden]{display:grid}.publication-more{display:none}}
 html[lang=ja] body{font-family:-apple-system,BlinkMacSystemFont,"Hiragino Kaku Gothic ProN","Yu Gothic",Meiryo,sans-serif}
 html[lang=ja] h1,html[lang=ja] h2{letter-spacing:0;line-height:1.4}
