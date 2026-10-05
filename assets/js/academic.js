@@ -110,18 +110,20 @@
     }));
     show(0); label();
   });
-  document.querySelectorAll('.publication-window').forEach(region => {
-    const list = region.querySelector('.publication-list');
-    const sizeWindow = () => {
-      const items = [...list.children];
-      if (!items.length) return;
-      const count = Math.min(3, items.length);
-      const height = items.slice(0, count).reduce((sum, item) => sum + item.getBoundingClientRect().height, 0);
-      region.style.height = `${Math.ceil(height)}px`;
+  document.querySelectorAll('[data-publication-preview]').forEach(list => {
+    const items = [...list.children].slice(3);
+    const button = list.nextElementSibling;
+    if (!items.length || !button?.matches('.publication-more')) return;
+    let expanded = false;
+    const update = () => {
+      items.forEach(item => { item.hidden = !expanded; });
+      button.textContent = translate(expanded ? 'Show fewer' : 'Show more');
+      button.setAttribute('aria-expanded', String(expanded));
     };
-    new ResizeObserver(sizeWindow).observe(list);
-    document.addEventListener('academic:language', sizeWindow);
-    sizeWindow();
+    button.hidden = false;
+    button.addEventListener('click', () => { expanded = !expanded; update(); });
+    document.addEventListener('academic:language', update);
+    update();
   });
   applyLanguage();
 })();

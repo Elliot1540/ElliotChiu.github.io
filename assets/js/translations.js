@@ -1,4 +1,4 @@
-/* UI and profile translations. Bibliographic records retain source wording. */
+/* UI and profile translations. */
 window.academicTranslations = {
   "Research": {
     "en": "Research",
@@ -1590,18 +1590,6 @@ window.academicTranslations = {
     "zh-Hant": "08 / 聯繫",
     "ja": "08 / お問い合わせ"
   },
-  "Scroll within the list to browse all publications.": {
-    "en": "Scroll within the list to browse all publications.",
-    "zh-Hans": "在论文列表内滚动，浏览全部成果。",
-    "zh-Hant": "在論文列表內捲動，瀏覽全部成果。",
-    "ja": "一覧内をスクロールして、すべての研究業績をご覧いただけます。"
-  },
-  "Scrollable publications": {
-    "en": "Scrollable publications",
-    "zh-Hans": "可滚动的论文列表",
-    "zh-Hant": "可捲動的論文列表",
-    "ja": "スクロール可能な研究業績一覧"
-  },
   "Integrating Emotional Education into University Art Education": {
     "en": "Integrating Emotional Education into University Art Education",
     "zh-Hans": "情感教育在大学美术教育中的渗透研究",
@@ -1613,5 +1601,17 @@ window.academicTranslations = {
     "zh-Hans": "探讨情感教育在大学美术教学中的价值，以及融入鉴赏、创作实践和设计活动的策略。",
     "zh-Hant": "探討情感教育在大學美術教學中的價值，以及融入鑑賞、創作實踐和設計活動的策略。",
     "ja": "大学の美術教育における情感教育の価値と、鑑賞、創作実践、デザイン活動に取り入れる方策を検討します。"
+  },
+  "Show more": {
+    "en": "Show more",
+    "zh-Hans": "显示更多",
+    "zh-Hant": "顯示更多",
+    "ja": "もっと見る"
+  },
+  "Show fewer": {
+    "en": "Show fewer",
+    "zh-Hans": "收起",
+    "zh-Hant": "收起",
+    "ja": "折りたたむ"
   }
 };
