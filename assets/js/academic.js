@@ -110,8 +110,8 @@
     }));
     show(0); label();
   });
-  document.querySelectorAll('[data-publication-preview]').forEach(list => {
-    const items = [...list.children].slice(3);
+  document.querySelectorAll('[data-publication-preview], [data-experience-preview]').forEach(list => {
+    const items = [...list.children].slice(list.hasAttribute('data-experience-preview') ? 4 : 3);
     const button = list.nextElementSibling;
     if (!items.length || !button?.matches('.publication-more')) return;
     let expanded = false;

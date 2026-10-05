@@ -116,9 +116,9 @@ window.academicTranslations = {
   },
   "PhD Candidate & DISC101 Tutor": {
     "en": "PhD Candidate & DISC101 Tutor",
-    "zh-Hans": "博士研究生 · DISC101 课程导师",
-    "zh-Hant": "博士研究生 · DISC101 課程導師",
-    "ja": "博士課程在籍・DISC101 チューター"
+    "zh-Hans": "博士研究生 · DISC101 本科生导师",
+    "zh-Hant": "博士研究生 · DISC101 本科生導師",
+    "ja": "博士課程在籍・DISC101 学部生チューター"
   },
   "PhD Candidate": {
     "en": "PhD Candidate",
@@ -326,21 +326,21 @@ window.academicTranslations = {
   },
   "Tutor · DISC101": {
     "en": "Tutor · DISC101",
-    "zh-Hans": "课程导师 · DISC101",
-    "zh-Hant": "課程導師 · DISC101",
-    "ja": "チューター · DISC101"
+    "zh-Hans": "本科生导师 · DISC101",
+    "zh-Hant": "本科生導師 · DISC101",
+    "ja": "学部生チューター · DISC101"
   },
-  "Storytelling for Digital Screens": {
-    "en": "Storytelling for Digital Screens",
-    "zh-Hans": "数字屏幕叙事",
-    "zh-Hant": "數字屏幕敘事",
-    "ja": "デジタルスクリーンのためのストーリーテリング"
+  "Digital Storytelling": {
+    "en": "Digital Storytelling",
+    "zh-Hans": "数字叙事",
+    "zh-Hant": "數位敘事",
+    "ja": "デジタル・ストーリーテリング"
   },
-  "Dovedale Campus, University of Canterbury": {
-    "en": "Dovedale Campus, University of Canterbury",
-    "zh-Hans": "坎特伯雷大学 Dovedale 校区",
-    "zh-Hant": "坎特伯雷大學 Dovedale 校區",
-    "ja": "カンタベリー大学 Dovedale キャンパス"
+  "Faculty of Arts, University of Canterbury": {
+    "en": "Faculty of Arts, University of Canterbury",
+    "zh-Hans": "坎特伯雷大学人文学院",
+    "zh-Hant": "坎特伯雷大學人文學院",
+    "ja": "カンタベリー大学人文学部"
   },
   "Human–computer interaction, accessible handheld AR, and digital cultural heritage.": {
     "en": "Human–computer interaction, accessible handheld AR, and digital cultural heritage.",
@@ -542,9 +542,9 @@ window.academicTranslations = {
   },
   "Jichun Zhao (Elliot Chiu) is a PhD Candidate at HIT Lab NZ and DISC101 Tutor at the University of Canterbury in Christchurch, New Zealand.": {
     "en": "Jichun Zhao (Elliot Chiu) is a PhD Candidate at HIT Lab NZ and DISC101 Tutor at the University of Canterbury in Christchurch, New Zealand.",
-    "zh-Hans": "赵季淳（Elliot Chiu）是新西兰基督城坎特伯雷大学人机交互技术实验室的博士研究生，同时担任 DISC101 课程导师。",
-    "zh-Hant": "趙季淳（Elliot Chiu）是新西蘭基督城坎特伯雷大學人機交互技術實驗室的博士研究生，同時擔任 DISC101 課程導師。",
-    "ja": "趙季淳（Elliot Chiu）は、ニュージーランド・クライストチャーチのカンタベリー大学 HIT Lab NZ に在籍する博士課程学生で、DISC101 のチューターを務めています。"
+    "zh-Hans": "赵季淳（Elliot Chiu）是新西兰基督城坎特伯雷大学人机交互技术实验室的博士研究生，同时担任 DISC101 本科生导师。",
+    "zh-Hant": "趙季淳（Elliot Chiu）是新西蘭基督城坎特伯雷大學人機交互技術實驗室的博士研究生，同時擔任 DISC101 本科生導師。",
+    "ja": "趙季淳（Elliot Chiu）は、ニュージーランド・クライストチャーチのカンタベリー大学 HIT Lab NZ に在籍する博士課程学生で、DISC101 の学部生チューターを務めています。"
   },
   "Research focus": {
     "en": "Research focus",
@@ -570,11 +570,11 @@ window.academicTranslations = {
     "zh-Hant": "坎特伯雷大學人機交互技術實驗室博士研究生",
     "ja": "カンタベリー大学 HIT Lab NZ 博士課程"
   },
-  "Tutor, DISC101 – Storytelling for Digital Screens, University of Canterbury": {
-    "en": "Tutor, DISC101 – Storytelling for Digital Screens, University of Canterbury",
-    "zh-Hans": "坎特伯雷大学 DISC101「数字屏幕叙事」课程导师",
-    "zh-Hant": "坎特伯雷大學 DISC101「數字屏幕敘事」課程導師",
-    "ja": "カンタベリー大学 DISC101「デジタルスクリーンのためのストーリーテリング」チューター"
+  "Tutor, DISC101 – Digital Storytelling, Faculty of Arts, University of Canterbury": {
+    "en": "Tutor, DISC101 – Digital Storytelling, Faculty of Arts, University of Canterbury",
+    "zh-Hans": "坎特伯雷大学人文学院 DISC101「数字叙事」本科生导师",
+    "zh-Hant": "坎特伯雷大學人文學院 DISC101「數位敘事」本科生導師",
+    "ja": "カンタベリー大学人文学部 DISC101「デジタル・ストーリーテリング」学部生チューター"
   },
   "Education": {
     "en": "Education",
@@ -599,12 +599,6 @@ window.academicTranslations = {
     "zh-Hans": "教学经历",
     "zh-Hant": "教學經歷",
     "ja": "教育活動"
-  },
-  "Tutor, DISC101 – Storytelling for Digital Screens, Dovedale Campus, University of Canterbury": {
-    "en": "Tutor, DISC101 – Storytelling for Digital Screens, Dovedale Campus, University of Canterbury",
-    "zh-Hans": "坎特伯雷大学 Dovedale 校区 DISC101「数字屏幕叙事」课程导师",
-    "zh-Hant": "坎特伯雷大學 Dovedale 校區 DISC101「數字屏幕敘事」課程導師",
-    "ja": "カンタベリー大学 Dovedale キャンパス、DISC101「デジタルスクリーンのためのストーリーテリング」チューター"
   },
   "XR Accessibility": {
     "en": "XR Accessibility",
