@@ -1,11 +1,7 @@
-{% if page.home %}
-<p class="publication-scroll-hint">Scroll within the list to browse all publications.</p>
-<div class="publication-window" tabindex="0" role="region" aria-label="Scrollable publications">
-{% endif %}
-<ol class="publication-list">
+<ol class="publication-list"{% if page.home %} id="homepage-publications" data-publication-preview{% endif %}>
 {% assign publications = site.publications | sort: 'sort_order' | reverse %}
 {% for publication in publications %}
 <li><span class="publication-year">{{ publication.year }}</span><div><p class="publication-type">{{ publication.publication_type }}</p><h3>{% if publication.no_link %}{{ publication.title }}{% else %}<a href="{{ publication.url | relative_url }}">{{ publication.title }}</a>{% endif %}</h3><p class="citation"{% if publication.citation_localized %} data-localized="{{ publication.citation_localized | jsonify | escape }}"{% endif %}>{{ publication.citation }}</p>{% if publication.excerpt %}<p class="publication-summary">{{ publication.excerpt }}</p>{% endif %}{% unless publication.no_link %}<p class="publication-actions"><a href="{{ publication.url | relative_url }}">View details</a>{% if publication.paperurl %}<a href="{{ publication.paperurl }}">Full text / record ↗</a>{% endif %}{% if publication.doi %}<a href="https://doi.org/{{ publication.doi }}">DOI ↗</a>{% endif %}</p>{% endunless %}</div></li>
 {% endfor %}
 </ol>
-{% if page.home %}</div>{% endif %}
+{% if page.home %}<button class="publication-more" type="button" aria-controls="homepage-publications" aria-expanded="false" hidden>Show more</button>{% endif %}
