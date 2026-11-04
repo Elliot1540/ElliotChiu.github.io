@@ -31,7 +31,7 @@ Education
 
 Research visits
 ------
-<div class="timeline"><article class="planned"><p class="period">Oct–Dec 2026 <span class="status-tag">Planned</span></p><div><h3>Visiting Research</h3><p><a href="https://www.riec.tohoku.ac.jp/en/">Research Institute of Electrical Communication (RIEC), Tohoku University</a></p><p class="muted">Sendai, Japan · Upcoming research visit</p></div></article></div>
+<div class="timeline"><article><p class="period">Oct–Dec 2026 <span class="status-tag">Current</span></p><div><h3>Visiting Research</h3><p><a href="https://www.riec.tohoku.ac.jp/en/">Research Institute of Electrical Communication (RIEC), Tohoku University</a></p><p class="muted">Sendai, Japan</p></div></article></div>
 
 Summer schools
 ------
