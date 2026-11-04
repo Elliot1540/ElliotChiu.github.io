@@ -209,6 +209,9 @@ exclude:
   - package.json*
   - Rakefile
   - README
+  - README.md
+  - images/exchange/README.md
+  - EDITING.md
   - scripts
   - tmp
   - vendor
