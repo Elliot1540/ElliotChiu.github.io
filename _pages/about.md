@@ -1,7 +1,8 @@
 ---
 layout: academic
 permalink: /
-title: "Jichun Zhao (Elliot Chiu)"
+title: "Jichun Zhao (Elliot Chiu) · 赵季淳 / 趙季淳"
+description: "Jichun Zhao (Elliot Chiu, 赵季淳 / 趙季淳) is a PhD candidate at HIT Lab NZ, University of Canterbury, researching accessible handheld AR for older adults and digital cultural heritage."
 home: true
 redirect_from:
   - /about/
@@ -10,7 +11,7 @@ redirect_from:
 <section class="hero" aria-labelledby="intro-title">
   <div class="hero-copy">
     <p class="eyebrow">HIT Lab NZ · University of Canterbury</p>
-    <h1 id="intro-title">Jichun Zhao<span>Elliot Chiu</span></h1>
+    <h1 id="intro-title">Jichun Zhao<span>Elliot Chiu</span><span lang="zh"><bdi lang="zh-Hans">赵季淳</bdi> / <bdi lang="zh-Hant">趙季淳</bdi></span></h1>
     <p class="role">PhD Candidate &amp; DISC101 Tutor</p>
     <p class="hero-statement">Designing accessible augmented reality for older adults and cultural heritage.</p>
     <p>I work at the intersection of human–computer interaction, handheld AR, and digital cultural heritage. My research explores how immersive experiences can support meaningful participation across different abilities, communities, and life stages.</p>
@@ -41,7 +42,7 @@ redirect_from:
 <section id="experience" class="section" aria-labelledby="experience-title">
   <div class="section-heading heading-row"><div><p class="eyebrow">04 / Experience</p><h2 id="experience-title">Research, teaching &amp; education</h2></div><a href="{{ '/cv/' | relative_url }}">Full CV <span aria-hidden="true">↗</span></a></div>
   <div class="timeline" id="homepage-experience" data-experience-preview>
-    <article class="planned"><p class="period">Oct–Dec 2026 <span class="status-tag">Planned</span></p><div><h3>Visiting Research</h3><p><a href="https://www.riec.tohoku.ac.jp/en/">Research Institute of Electrical Communication (RIEC), Tohoku University</a></p><p class="muted">Sendai, Japan · Upcoming research visit</p></div></article>
+    <article><p class="period">Oct–Dec 2026 <span class="status-tag">Current</span></p><div><h3>Visiting Research</h3><p><a href="https://www.riec.tohoku.ac.jp/en/">Research Institute of Electrical Communication (RIEC), Tohoku University</a></p><p class="muted">Sendai, Japan</p></div></article>
     <article><p class="period">Current</p><div><h3>PhD Candidate</h3><p>HIT Lab NZ, University of Canterbury</p><p class="muted">Human–computer interaction, accessible handheld AR, and digital cultural heritage.</p></div></article>
     <article><p class="period">Current</p><div><h3>Tutor · DISC101</h3><p>Digital Storytelling</p><p class="muted">Faculty of Arts, University of Canterbury</p></div></article>
     <article><p class="period">2022–2025</p><div><h3>Master’s Degree in Art · Design Studies</h3><p>Tsinghua University and Jiangsu Normal University</p></div></article>
