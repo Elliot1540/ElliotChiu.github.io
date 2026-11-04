@@ -384,11 +384,11 @@ window.academicTranslations = {
     "zh-Hant": "日本東北大學電氣通信研究所（RIEC）",
     "ja": "東北大学電気通信研究所（RIEC）"
   },
-  "Sendai, Japan · Upcoming research visit": {
-    "en": "Sendai, Japan · Upcoming research visit",
-    "zh-Hans": "日本仙台 · 即将开展的访问研究",
-    "zh-Hant": "日本仙台 · 即將開展的訪問研究",
-    "ja": "日本・仙台 · 訪問研究予定"
+  "Sendai, Japan": {
+    "en": "Sendai, Japan",
+    "zh-Hans": "日本仙台",
+    "zh-Hant": "日本仙台",
+    "ja": "日本・仙台"
   },
   "Jul–Aug 2023": {
     "en": "Jul–Aug 2023",
