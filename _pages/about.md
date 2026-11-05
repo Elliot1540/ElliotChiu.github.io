@@ -16,7 +16,7 @@ redirect_from:
     <p class="hero-statement">Designing accessible augmented reality for older adults and cultural heritage.</p>
     <p>I work at the intersection of human–computer interaction, handheld AR, and digital cultural heritage. My research explores how immersive experiences can support meaningful participation across different abilities, communities, and life stages.</p>
     <div class="actions"><a class="button" href="#research">Explore my research <span aria-hidden="true">↗</span></a><a class="button secondary" href="{{ '/cv/' | relative_url }}">View CV</a></div>
-    <div class="profile-links" aria-label="Academic and professional profiles"><a href="{{ site.author.googlescholar }}">Google Scholar</a><a href="{{ site.author.orcid }}">ORCID</a><a href="https://github.com/{{ site.author.github }}">GitHub</a><a href="https://www.linkedin.com/in/{{ site.author.linkedin }}/">LinkedIn</a></div>
+    <div class="profile-links" aria-label="Academic and professional profiles"><a href="{{ site.author.googlescholar }}">Google Scholar</a><a href="{{ site.author.orcid }}">ORCID</a><a href="https://www.linkedin.com/in/{{ site.author.linkedin }}/">LinkedIn</a></div>
   </div>
   <figure class="portrait"><img src="{{ '/images/profile-hit-lab.jpg' | relative_url }}" alt="Portrait of Jichun Zhao (Elliot Chiu)" width="1320" height="1306" fetchpriority="high"><figcaption>Based in Christchurch, New Zealand</figcaption></figure>
 </section>
