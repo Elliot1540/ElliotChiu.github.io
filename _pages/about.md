@@ -10,7 +10,7 @@ redirect_from:
 ---
 <section class="hero" aria-labelledby="intro-title">
   <div class="hero-copy">
-    <p class="eyebrow">HIT Lab NZ · University of Canterbury</p>
+    <p class="eyebrow" style="text-transform: none">HIT Lab NZ · University of Canterbury</p>
     <h1 id="intro-title">Jichun Zhao<span>Elliot Chiu</span><span lang="zh"><bdi lang="zh-Hans">赵季淳</bdi> / <bdi lang="zh-Hant">趙季淳</bdi></span></h1>
     <p class="role">PhD Candidate &amp; DISC101 Tutor</p>
     <p class="hero-statement">Designing accessible augmented reality for older adults and cultural heritage.</p>
@@ -18,7 +18,7 @@ redirect_from:
     <div class="actions"><a class="button" href="#research">Explore my research <span aria-hidden="true">↗</span></a><a class="button secondary" href="{{ '/cv/' | relative_url }}">View CV</a></div>
     <div class="profile-links" aria-label="Academic and professional profiles"><a href="{{ site.author.googlescholar }}">Google Scholar</a><a href="{{ site.author.orcid }}">ORCID</a><a href="https://github.com/{{ site.author.github }}">GitHub</a><a href="https://www.linkedin.com/in/{{ site.author.linkedin }}/">LinkedIn</a></div>
   </div>
-  <figure class="portrait"><img src="{{ '/images/profile.png' | relative_url }}" alt="Portrait of Jichun Zhao (Elliot Chiu)" width="480" height="600" fetchpriority="high"><figcaption>Based in Christchurch, New Zealand</figcaption></figure>
+  <figure class="portrait"><img src="{{ '/images/profile-hit-lab.jpg' | relative_url }}" alt="Portrait of Jichun Zhao (Elliot Chiu)" width="1320" height="1306" fetchpriority="high"><figcaption>Based in Christchurch, New Zealand</figcaption></figure>
 </section>
 <section id="research" class="section" aria-labelledby="research-title">
   <div class="section-heading"><p class="eyebrow">01 / Research</p><h2 id="research-title">Inclusive interaction. Meaningful experiences.</h2></div>
